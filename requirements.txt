@@ -2,3 +2,5 @@ git+git://github.com/Ceasar/staticjinja#egg=staticjinja
 git+git://github.com/mitsuhiko/jinja2.git#egg=jinja2
 awesome-slugify
 python-dateutil
+git+git://github.com/GovLab/govlab-static-tools.git#egg=govlab-static-tools
+git+git://github.com/mtlevolio/pylinkchecker.git#egg=pylinkchecker

@@ -6,10 +6,13 @@ from datetime import date
 from staticjinja import make_site
 from dateutil.parser import parse
 
+from govlabstatic.cli import Manager
+
+ROOT_DIR = path.abspath(path.dirname(__file__))
 
 # We define constants for the deployment.
-searchpath = path.join(getcwd(), 'templates')
-outputpath = path.join(getcwd(), 'site')
+searchpath = path.join(ROOT_DIR, 'templates')
+outputpath = path.join(ROOT_DIR, 'site')
 
 # We load the data we want to use in the templates.
 PEOPLE = load(open('data/people.yaml'))
@@ -109,5 +112,13 @@ site = make_site(
     staticpaths=['static', '../data'],
 )
 
-# site.render()
-site.render(use_reloader=True)
+manager = Manager(
+    site_name='govlabacademy.org',
+    site=site,
+    sass_src_path=path.join(ROOT_DIR, 'sass', 'styles.scss'),
+    sass_dest_path=path.join(searchpath, 'static', 'styles',
+                             'styles.css')
+)
+
+if __name__ == '__main__':
+    manager.run()
