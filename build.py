@@ -6,10 +6,13 @@ from datetime import date
 from staticjinja import make_site
 from dateutil.parser import parse
 
+from govlabstatic.cli import Manager
+
+ROOT_DIR = path.abspath(path.dirname(__file__))
 
 # We define constants for the deployment.
-searchpath = path.join(getcwd(), 'templates')
-outputpath = path.join(getcwd(), 'site')
+searchpath = path.join(ROOT_DIR, 'templates')
+outputpath = path.join(ROOT_DIR, 'site')
 
 # We load the data we want to use in the templates.
 PEOPLE = load(open('data/people.yaml'))
@@ -90,24 +93,40 @@ filters = {
     'containsTag': containsTag,
 }
 
-# We generate a bunch of template pages; dirty hack for now.
-coaching_detail_page = open('%s/coaching-detail-page.html' % searchpath).read()
+def render_coaching_detail_pages(env, template, **kwargs):
+    '''
+    staticjinja rule for generating all individual coaching detail pages.
+    '''
 
-for index, coaching_class in enumerate(COACHING):
-    filename = slugify(coaching_class['name'].lower())
-    page = coaching_detail_page.replace('coaching[0]', 'coaching[%d]' % index)
-    f = open('templates/%s-detail.html' % filename, 'w+')
+    template = env.get_template('_coaching-detail-page.html')
 
-    f.write(page)
-    f.close()
+    for index, coaching_class in enumerate(COACHING):
+        filename = '%s-detail.html' % slugify(coaching_class['name'].lower())
+        template.stream(coaching_class=coaching_class, **kwargs).\
+            dump(path.join(env.outpath, filename))
+
 
 site = make_site(
     filters=filters,
     outpath=outputpath,
-    contexts=[(r'.*.html', loadAcademyData)],
+    contexts=[
+        (r'.*.html', loadAcademyData),
+        (r'coaching-detail-pages.custom', loadAcademyData),
+    ],
+    rules=[
+        (r'coaching-detail-pages.custom', render_coaching_detail_pages),
+    ],
     searchpath=searchpath,
     staticpaths=['static', '../data'],
 )
 
-# site.render()
-site.render(use_reloader=True)
+manager = Manager(
+    site_name='govlabacademy.org',
+    site=site,
+    sass_src_path=path.join(ROOT_DIR, 'sass', 'styles.scss'),
+    sass_dest_path=path.join(searchpath, 'static', 'styles',
+                             'styles.css')
+)
+
+if __name__ == '__main__':
+    manager.run()
