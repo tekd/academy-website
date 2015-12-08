@@ -93,21 +93,29 @@ filters = {
     'containsTag': containsTag,
 }
 
-# We generate a bunch of template pages; dirty hack for now.
-coaching_detail_page = open('%s/coaching-detail-page.html' % searchpath).read()
+def render_coaching_detail_pages(env, template, **kwargs):
+    '''
+    staticjinja rule for generating all individual coaching detail pages.
+    '''
 
-for index, coaching_class in enumerate(COACHING):
-    filename = slugify(coaching_class['name'].lower())
-    page = coaching_detail_page.replace('coaching[0]', 'coaching[%d]' % index)
-    f = open('templates/%s-detail.html' % filename, 'w+')
+    template = env.get_template('_coaching-detail-page.html')
 
-    f.write(page)
-    f.close()
+    for index, coaching_class in enumerate(COACHING):
+        filename = '%s-detail.html' % slugify(coaching_class['name'].lower())
+        template.stream(coaching_class=coaching_class, **kwargs).\
+            dump(path.join(env.outpath, filename))
+
 
 site = make_site(
     filters=filters,
     outpath=outputpath,
-    contexts=[(r'.*.html', loadAcademyData)],
+    contexts=[
+        (r'.*.html', loadAcademyData),
+        (r'coaching-detail-pages.custom', loadAcademyData),
+    ],
+    rules=[
+        (r'coaching-detail-pages.custom', render_coaching_detail_pages),
+    ],
     searchpath=searchpath,
     staticpaths=['static', '../data'],
 )
