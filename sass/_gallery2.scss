@@ -1,0 +1,50 @@
+// .b-wrap {
+// 	max-width: 960px;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// }
+
+.b-project-gallery-page {
+	.e-landing-section {
+		padding: 120px 0 80px;
+		text-align: center;
+		background-color: $purple;
+
+		h2, h3 {
+			text-align: center;
+			color: $white;
+			font-weight: 100;
+		}
+	}
+}
+
+
+.b-project-list {
+	padding: 40px 0;
+
+	.e-list-item {
+		height: 0;
+		padding: 20px;
+		padding-bottom: 100%;
+		background-color: $gray-10;
+		margin: 30px 0 0;
+		position: relative;
+
+
+		.e-project-title {
+			font-size: 18px;
+			text-transform: uppercase;
+			font-weight: 600;
+			
+		}
+
+		.e-tagline {
+			font-size: 14px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 20px;
+
+		}
+	}
+}

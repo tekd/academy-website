@@ -1,4 +1,6 @@
 @import "variables";
+@import "breakpoint";
+
 
 body {
 	background-color: $gray_3;
@@ -24,7 +26,8 @@ body, h1, h2, h3, h4, h5, input {
 @import "pop-buttons";
 @import "cards";
 @import "form";
-@import "sandbox";
+@import "single-landing";
+@import "single-description";
 
 // Content pages
 @import "homepage";
@@ -32,8 +35,10 @@ body, h1, h2, h3, h4, h5, input {
 @import "faculty-members";
 @import "about";
 @import "faqs";
-@import "gallery";
-@import "project-page";
+// @import "gallery";
+// @import "project-page";
+@import "gallery2";
+@import "project-page2";
 @import "detail-page";
 @import "rss-feed";
 @import "library";
