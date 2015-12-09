@@ -1,0 +1,34 @@
+.b-single-landing {
+    padding-top: 90px;
+
+    .e-question {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        font-weight: 100;
+        text-align: center;
+        max-width: 800px;
+    }
+}
+
+.b-single-description {
+    padding: 60px 0;
+    background-color: #fff;
+
+    .e-project-link {
+        position: relative;
+
+        i {
+            transform: rotate(-45deg);
+            margin-left: 15px;
+            position: absolute;
+            font-size: 28px;
+        }
+    }
+
+    .e-team { margin-top: 30px; }
+}
+
+.b-single-description.m-slider {
+    background-color: $gray-80;
+    padding-bottom: 150px;
+}

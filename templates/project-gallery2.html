@@ -1,0 +1,27 @@
+ {% extends "layout/base.html" %}
+{% block content %}
+<div class="b-project-gallery-page">
+
+<div class="e-landing-section">
+   <div class="b-wrap row">
+    <h2>Project Gallery</h2>
+    <h3 class="e-tagline">Occus. Antemperum quo volum ent elessit, quis volorum hit eume oditatias dolliquam inctum qui solorep eliquas pellorat eos utam liquatem</h3>
+  </div>
+</div>
+<div class="b-project-list">
+  <div class="b-wrap row">
+  {% for card in projects|sort(attribute='title') %}
+    <div class="column large-4">
+      <a href="./{{card.slug}}.html" class="">
+        <article class="e-list-item">
+          <p class="e-project-title">{{card.title}}</p>
+          <p class="e-tagline">{{card.tagline}}</p>
+        </article>
+      </a>
+    </div>
+  {% endfor %}  
+  </div>
+</div>
+
+</div>
+{% endblock %}
