@@ -12,7 +12,7 @@
   <div class="b-wrap row">
   {% for card in projects|sort(attribute='title') %}
     <div class="column large-4">
-      <a href="./{{card.slug}}.html" class="">
+      <a href="./project-detail-{{card.title|slug}}.html" class="">
         <article class="e-list-item">
           <p class="e-project-title">{{card.title}}</p>
           <p class="e-tagline">{{card.tagline}}</p>
