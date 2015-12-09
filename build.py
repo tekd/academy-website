@@ -1,4 +1,4 @@
-from os import path, getcwd
+from os import path, getcwd, mkdir
 from sys import stdout
 from yaml import load
 from slugify import Slugify
@@ -75,10 +75,14 @@ def render_project_detail_pages(env, template, **kwargs):
 
     template = env.get_template('_project-detail-page.html')
 
+    outdir = path.join(env.outpath, 'project')
+    if not path.exists(outdir):
+        mkdir(outdir)
+
     for index, project in enumerate(PROJECTS):
-        filename = 'project-detail-%s.html' % slugify(project['title'])
+        filename = '%s.html' % slugify(project['title'])
         template.stream(project=project, **kwargs).\
-            dump(path.join(env.outpath, filename))
+            dump(path.join(outdir, filename))
 
 
 def render_coaching_detail_pages(env, template, **kwargs):
