@@ -1,12 +1,14 @@
 from os import path, getcwd
 from sys import stdout
 from yaml import load
-from slugify import slugify
+from slugify import Slugify
 from datetime import date
 from staticjinja import make_site
 from dateutil.parser import parse
 
 from govlabstatic.cli import Manager
+
+slugify = Slugify(to_lower=True)
 
 ROOT_DIR = path.abspath(path.dirname(__file__))
 
@@ -19,7 +21,7 @@ PEOPLE = load(open('data/people.yaml'))
 CLINICS = load(open('data/clinics.yaml'))
 LIBRARY = load(open('data/library.yaml'))
 COACHING = load(open('data/coaching.yaml'))
-PROJECTS = load(open('data/project-schema.yaml'))
+PROJECTS = load(open('data/project-gallery.yaml'))
 WORKSHOPS = load(open('data/workshops.yaml'))
 
 for p in PEOPLE:
@@ -33,40 +35,14 @@ for item in COACHING:
 
 COACHING = sorted(COACHING, key=lambda x: x['start_date'])
 
-TAGS = set()
-
-for item in PROJECTS:
-    for tag in item['tags']:
-        TAGS.add(tag)
-
-LIBRARY_TAGS = set()
-
-for item in LIBRARY:
-    for tag in item['slugTags']:
-        LIBRARY_TAGS.add(tag)
-
-
 def loadAcademyData():
     return {
         'people': PEOPLE,
         'clinics': CLINICS,
-        'library': LIBRARY,
         'projects': PROJECTS,
         'coaching': COACHING,
-        'resources': None,
-        'workshops': WORKSHOPS,
-        'libraryTags': LIBRARY_TAGS,
-        'projectTags': sorted(list(TAGS))
+        'workshops': WORKSHOPS
     }
-
-
-# We define some filters we want to use in the templates.
-def containsTag(x, y):
-    if x['tags'] is None:
-        return None
-
-    return x if y in x['tags'] else None
-
 
 def debug(text):
     print('text')
@@ -85,13 +61,25 @@ def nameTest(name, value):
 
 
 filters = {
-    'slug': lambda x: slugify(x.lower()),
+    'slug': slugify,
     'debug': debug,
     'byName': lambda x: [p for p in PEOPLE if p.name == x],
-    'isEmpty': isEmpty,
-    'nameTest': nameTest,
-    'containsTag': containsTag,
+    'isEmpty': isEmpty
 }
+
+
+def render_project_detail_pages(env, template, **kwargs):
+    '''
+    staticjinja rule for generating all individual project detail pages.
+    '''
+
+    template = env.get_template('_project-detail-page.html')
+
+    for index, project in enumerate(PROJECTS):
+        filename = 'project-detail-%s.html' % slugify(project['title'])
+        template.stream(project=project, **kwargs).\
+            dump(path.join(env.outpath, filename))
+
 
 def render_coaching_detail_pages(env, template, **kwargs):
     '''
@@ -101,7 +89,7 @@ def render_coaching_detail_pages(env, template, **kwargs):
     template = env.get_template('_coaching-detail-page.html')
 
     for index, coaching_class in enumerate(COACHING):
-        filename = '%s-detail.html' % slugify(coaching_class['name'].lower())
+        filename = '%s-detail.html' % slugify(coaching_class['name'])
         template.stream(coaching_class=coaching_class, **kwargs).\
             dump(path.join(env.outpath, filename))
 
@@ -111,10 +99,11 @@ site = make_site(
     outpath=outputpath,
     contexts=[
         (r'.*.html', loadAcademyData),
-        (r'coaching-detail-pages.custom', loadAcademyData),
+        (r'.*.custom', loadAcademyData),
     ],
     rules=[
         (r'coaching-detail-pages.custom', render_coaching_detail_pages),
+        (r'project-detail-pages.custom', render_project_detail_pages),
     ],
     searchpath=searchpath,
     staticpaths=['static', '../data'],

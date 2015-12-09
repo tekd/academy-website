@@ -49,15 +49,13 @@ p,
 	margin-bottom: 0.5rem;
 
 	a {
-		color: $scheme-comp_4;
 
 		&:hover {
-			background-color: $scheme-comp_3;
-			color: $scheme-comp_4;
+			text-decoration: underline;
 		}
 
 		&:visited {
-			color: $gray_50;
+			color: $teal;
 		}
 	}
 }

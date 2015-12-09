@@ -1,0 +1,17 @@
+---
+
+- title: Citizen's Open Agenda
+  location: Mexico
+  tagline: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dolores, vel inventore aspernatur eaque quod error, ex repellat culpa illum, provident.'
+  description: "The general objective of this proposal is to develop tools that, taking advantage of the crowdsourced and government data already available, will catalyze, inspire and create more opportunities of citizen engagement with the specific goal of improving government accountability."
+  status: 'complete' # define || prototype || test || complete
+  team:
+  - first_name: Dinorah
+    last_name: Cantu-Pedraza
+    url: http://www.civic-discourse.org/users/dino/activity
+  - first_name: Dinorah
+    last_name: Cantu-Pedraza
+    url: http://www.civic-discourse.org/users/dino/activity
+  images:
+    - image3.jpg
+    - image4.jpg

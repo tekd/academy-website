@@ -71,7 +71,7 @@
   link:
     url: http://www.nesta.org.uk/users/geoff-mulgan
     twitter: https://twitter.com/geoffmulgan
-    linkedin: uk.linkedin.com/pub/geoff-mulgan/63/92/546
+    linkedin: http://uk.linkedin.com/pub/geoff-mulgan/63/92/546
     github:
     email: geoff.mulgan@nesta.org.uk
   tags: design-labs
@@ -184,7 +184,7 @@
   bio_url:
   link:
     url: http://thegovlab.org/andrew-young/
-    twitter: "@AndrewYoungNYC"
+    twitter: http://twitter.com/AndrewYoungNYC
     linkedin: https://www.linkedin.com/pub/andrew-young/59/2a8/4a4
     github:
     email: andrew@thegovlab.org
@@ -200,7 +200,7 @@
   bio_url: 
   link:
     url: http://arnaud.sahuguet.com/arnaud-sahuguet-cv.pdf
-    twitter: twitter.com/sahuguet
+    twitter: http://twitter.com/sahuguet
     linkedin: https://www.linkedin.com/in/sahuguet
     github: https://github.com/sahuguet
     email: arnaud@thegovlab.org
