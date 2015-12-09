@@ -1,10 +1,12 @@
 from os import path, getcwd, mkdir
 from sys import stdout
+import subprocess
 from yaml import load
 from slugify import Slugify
 from datetime import date
 from staticjinja import make_site
 from dateutil.parser import parse
+import argh
 
 from govlabstatic.cli import Manager
 
@@ -98,6 +100,17 @@ def render_coaching_detail_pages(env, template, **kwargs):
             dump(path.join(env.outpath, filename))
 
 
+def deploy():
+    '''
+    Deploy the site.
+    '''
+
+    subprocess.check_call(
+        'git subtree push --prefix site origin gh-pages',
+        shell=True
+    )
+
+
 site = make_site(
     filters=filters,
     outpath=outputpath,
@@ -120,6 +133,9 @@ manager = Manager(
     sass_dest_path=path.join(searchpath, 'static', 'styles',
                              'styles.css')
 )
+
+argh.add_commands(manager.parser, [deploy])
+
 
 if __name__ == '__main__':
     manager.run()

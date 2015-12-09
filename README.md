@@ -28,3 +28,7 @@ you change them. However, if `sass` isn't on your command-line,
 your SASS files won't be rebuilt.
 
 The `site` directory will contain the generated website files.
+
+## Deployment
+
+To deploy the site, run `python build.py deploy`.
