@@ -1,4 +1,9 @@
-This is the GovLab Academy website.
+[![Build Status](https://travis-ci.org/GovLab/academy-website.svg?branch=master)](https://travis-ci.org/GovLab/academy-website)
+
+This is the **new** GovLab Academy website.
+
+The old site, which will be deprecated soon but is still currently
+live at govlabacademy.org, is at [govlabacademy/govlabacademy.github.io](https://github.com/govlabacademy/govlabacademy.github.io).
 
 ## Requirements
 
