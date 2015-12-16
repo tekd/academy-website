@@ -2271,14 +2271,31 @@ p,
     background-color: rgba(0, 0, 0, 0.1);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: cover;
     margin: 30px 0 0;
     position: relative; }
+    .b-project-list .e-list-item .e-shader-panel {
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding: inherit;
+      position: absolute;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), transparent); }
+      .b-project-list .e-list-item .e-shader-panel:hover {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)); }
+        .b-project-list .e-list-item .e-shader-panel:hover .e-project-title {
+          color: white;
+          text-shadow: 2px 2px #000; }
+        .b-project-list .e-list-item .e-shader-panel:hover .e-tagline {
+          color: white; }
     .b-project-list .e-list-item .e-project-title {
+      color: rgba(255, 255, 255, 0.9);
       font-size: 18px;
       text-transform: uppercase;
       font-weight: 600; }
     .b-project-list .e-list-item .e-tagline {
+      color: rgba(255, 255, 255, 0.9);
       font-size: 14px;
       position: absolute;
       bottom: 0;

@@ -14,13 +14,15 @@
     <div class="column large-4">
       <a href="/project/{{card.title|slug}}.html" class="">
         {% if card.logo %}
-          {% set url = '/static/img/projects/' + card.logo %}
+        {% set url = '/static/img/projects/' + card.logo %}
         {% else %}
-          {% set url = '/static/img/standard-badge.png' %}
+        {% set url = '/static/img/standard-badge.png' %}
         {% endif %}
         <article class="e-list-item" style="background-image: url('{{url}}')">
-          <p class="e-project-title">{{card.title}}</p>
-          <p class="e-tagline">{{card.tagline}}</p>
+          <div class="e-shader-panel">
+            <p class="e-project-title">{{card.title}}</p>
+            <p class="e-tagline">{{card.tagline}}</p>
+          </div>
         </article>
       </a>
     </div>
