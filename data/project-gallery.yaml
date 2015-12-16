@@ -23,7 +23,7 @@
   status: "complete" # define || prototype || test || complete
   email: "info@trekmedics.org"
   twitter: "@trekmedics"
-  facebook: "https://www.facebook.com/Trek-Medics-International-114525621925/"
+  facebook: "Trek-Medics-International-114525621925"
   www: "http://trekmedics.org/"
   team:
   - first_name: Jason
@@ -50,8 +50,8 @@
   status: "complete" # define || prototype || test || complete
   email: "joey.hulbert@fabi.up.ca.za"
   twitter: "@capecitsci"
-  facebook: "www.facebook.com/capecitsci"
-  www: ""
+  facebook: "capecitsci"
+  www:
   team:
   - first_name: Joey
     last_name: Hulbert
@@ -77,8 +77,8 @@
   status: "define" # define || prototype || test || complete
   email: "sarah.lamdan@law.cuny.edu"
   twitter: "@greenarchives1"
-  facebook: ""
-  www: ""
+  facebook:
+  www:
   team:
   images:
     - green-project1.png
@@ -97,21 +97,21 @@
   status: "complete" # define || prototype || test || complete
   email: "IPPIHub@justice.gc.ca"
   twitter: "@ScipioCK"
-  facebook: ""
-  www: ""
+  facebook:
+  www:
   team:
     - first_name: Marisa
       last_name: Dowswell
       position: "Associate Manager"
-      url: ""
+      url:
     - first_name: Stephanie
       last_name: Dulude
       position: "Associate Manager"
-      url: ""
+      url:
     - first_name: Christopher
       last_name: Scipio
       position: "Associate Manager"
-      url: ""
+      url:
   images:
     - ippi-hub-project1.jpg
     - ippi-hub-project2.jpg
@@ -129,29 +129,29 @@
   status: "complete" # define || prototype || test || complete
   email: "carolina.pozo.d@gmail.com"
   twitter: "@linqlab"
-  facebook: "http://www.facebook.com/linqlab"
-  www: ""
+  facebook: "linqlab"
+  www:
   team:
     - first_name: Carolina
       last_name: Pozo
       position: "Lab Founder and Secretary General of Planning and Open Government, City of Quito"
-      url: ""
+      url:
     - first_name: Carlos
       last_name: Vayas
       position: "Co-Founder Lab"
-      url: ""
+      url:
     - first_name: Andres
       last_name: Jarrin
       position: "Transport Innovation Coordinator"
-      url: ""
+      url:
     - first_name: Juan
       last_name: Martin Merlo
       position: "Social Innovation Coordinator"
-      url: ""
+      url:
     - first_name: Jimena
       last_name: Romero
       position: "Urban Innovation Coordinator"
-      url: ""
+      url:
   images:
     - linq-project1.png
     - linq-project2.png
@@ -171,21 +171,21 @@
   status: "complete" # define || prototype || test || complete
   email: "carolina.pozo.d@gmail.com"
   twitter: "@openmycity"
-  facebook: ""
+  facebook:
   www: "http://www.openmycity.org/"
   team:
     - first_name: Carolina
       last_name: Pozo
       position: " Secretary General Planning and Open Government, Municipality of Quito"
-      url: ""
+      url:
     - first_name: Natalia
       last_name: Paiva
       position: "Director, Transparencia Brasil"
-      url: ""
+      url:
     - first_name: Jaimie
       last_name: Boyd
       position: "Industry Canada"
-      url: ""
+      url:
   images:
     - city-project1.jpeg
     - city-project2.jpeg
@@ -202,10 +202,10 @@
   tagline: "Creating the nou New Brunswick"
   description:  "NouLAB is the New Brunswick’s public and social innovation lab. We help the public and innovators act together to address our most pressing social, environmental, and economic challenges. By connecting change agents from across sectors, convening them around pressing issues, and facilitating their journey to deep change, NouLAB is making the change process smarter. NouLAB is a partnership between the Pond-Deshpande Centre, NB Social Policy Research Network, and NB Non-Profit Housing, with support from the GovLab, MaRD Solutions Lab, and the J.W. McConnell Family Foundation."
   status: "complete" # define || prototype || test || complete
-  email: ""
+  email:
   twitter: "@NuLAB"
-  facebook: ""
-  www: ""
+  facebook:
+  www:
   team:
     - first_name: Jake
       last_name: Wildman-Sisk
@@ -238,9 +238,9 @@
   description:  "NYC Councilmatic (http://nyc.councilmatic.org/) is a new website for tracking and understanding what’s happening in the NYC Council. It’s free, open-source, and has generated the first-ever open data on every legislative action in the NYC Council. Councilmatic is a non-profit and non-partisan public resource, from the NYC-based Participatory Politics Foundation. It works for individuals and organization to access official NYC government info, public event schedules, and to hold public discussions about issues in their communities. Coming next: email & SMS alerts for committee hearings and council meetings, including agendas and minutes."
   status: "complete" # define || prototype || test || complete
   email: "davidd@ppolitics.org"
-  twitter: ""
-  facebook: ""
-  www: ""
+  twitter:
+  facebook:
+  www:
   team:
     - first_name: Jake
       last_name: Wildman-Sisk
@@ -276,8 +276,8 @@
   status: "test" # define || prototype || test || complete
   email: "info@nycprepared.org"
   twitter: "@nycprepared"
-  facebook: ""
-  www: ""
+  facebook:
+  www:
   team:
     - first_name: Devin
       last_name: Balkind
@@ -307,9 +307,9 @@
   description:  "Budgeting and expenditure data is the quantitative expression of a government’s priorities. Making it available to the public imposes hard challenges that not every administration is ready to undertake. The lack of IT capabilities and constrained resources of government agencies make it difficult for them to respond to the demands of information from their constituencies, transparency advocates, the press and central governments. Moreover, these administrations don’t usually have access to analysis tools that help them view how the resources are being used and to detect potential risks of misspending. SpendView is a platform for analysis and visualization of government budget, expenditure and revenue data."
   status: "test" # define || prototype || test || complete
   email: "hola@presupuestoabierto.org"
-  twitter: ""
-  facebook: ""
-  www: ""
+  twitter:
+  facebook:
+  www:
   team:
     - first_name: Manuel
       last_name: Aristaran
@@ -331,14 +331,14 @@
   description:  "In 2014, Retos Publicos was launched in collaboration between Codeando Mexico and the National Digital Strategy (NDS), to open procurement for IT development to SMEs. Through 10 contests, 8 Federal Ministries engaged with over 1100 participants, 150 SMEs to create 45 prototypes for digital solutions that resulted in 9 new open source tools for citizen engagement, efficiency, transparency and participation (see retos.gob.mx). Parallel to the program a diagnostic of the legal framework for the acquisition of digital services in MExico was made by Centro de Investigacion y Desarrollo Economico (CIDE)."
   status: "prototype" # define || prototype || test || complete
   email: "info@retos.gob.mx"
-  twitter: ""
-  facebook: ""
-  www: ""
+  twitter:
+  facebook:
+  www:
   team:
     - first_name: Oscar
       last_name: Montiel
       position: Open Innovation Lead
-      url: ""
+      url:
   images:
     - retos-project1.png
     - retos-project2.jpg
