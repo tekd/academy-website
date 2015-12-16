@@ -27,15 +27,17 @@
 		padding: 20px;
 		padding-bottom: 100%;
 		background-color: $gray-10;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 80%;
 		margin: 30px 0 0;
 		position: relative;
-
 
 		.e-project-title {
 			font-size: 18px;
 			text-transform: uppercase;
 			font-weight: 600;
-			
+
 		}
 
 		.e-tagline {

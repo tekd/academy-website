@@ -30,6 +30,7 @@
     last_name: Friesen
     position: Founder/Executive Director
     url: "http://trekmedics.org/who-we-are/bios/"
+  logo: logo-beacon.png
   images:
     - beacon-project1.jpg
     - beacon-project2.jpg
@@ -57,6 +58,7 @@
     last_name: Hulbert
     position: "PhD Student - Forestry and Agricultural Biotechnology Institute, Department of Plant Sciences, University of Pretoria, South Africa"
     url: "http://jmhulbert.me"
+  logo: logo-capecitizenscience.png
   images:
     - cape-project1.png
     - cape-project2.jpg
@@ -80,6 +82,7 @@
   facebook:
   www:
   team:
+  logo: logo-greenarchives.png
   images:
     - green-project1.png
     - green-project2.png
@@ -112,6 +115,7 @@
       last_name: Scipio
       position: "Associate Manager"
       url:
+  logo: logo-ippihub.png
   images:
     - ippi-hub-project1.jpg
     - ippi-hub-project2.jpg
@@ -152,6 +156,7 @@
       last_name: Romero
       position: "Urban Innovation Coordinator"
       url:
+  logo: logo-linq.png
   images:
     - linq-project1.png
     - linq-project2.png
@@ -186,6 +191,7 @@
       last_name: Boyd
       position: "Industry Canada"
       url:
+  logo: logo-mycity.png
   images:
     - city-project1.jpeg
     - city-project2.jpeg
@@ -223,6 +229,7 @@
       last_name: MacKenzie
       position: "New Brunswick Social Policy Research Network Director of Strategic Partnerships"
       url: "http://www.policyresearchnetwork.ca/staff/"
+  logo:
   images:
   tags:
     - Agile Research
@@ -258,6 +265,7 @@
       last_name: MacKenzie
       position: "New Brunswick Social Policy Research Network Director of Strategic Partnerships"
       url: "http://www.policyresearchnetwork.ca/staff/"
+  logo:
   images:
   tags:
     - Citizen Engagement
@@ -287,6 +295,7 @@
       last_name: Irvine
       position: Organizer
       url: "http://www.twitter.com/disasterdane"
+  logo:
   images:
     - prepared1.png
     - prepared2.png
@@ -315,6 +324,7 @@
       last_name: Aristaran
       position: MSc Candidate MIT Media Lab
       url: "http://jazzido.com"
+  logo: logo-presupuesto-abierto.png
   images:
     - presupuesto-project1.png
     - presupuesto-project2.png
@@ -339,6 +349,7 @@
       last_name: Montiel
       position: Open Innovation Lead
       url:
+  logo: logo-retospublicos.png
   images:
     - retos-project1.png
     - retos-project2.jpg
