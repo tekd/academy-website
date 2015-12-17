@@ -2327,20 +2327,8 @@ p,
       transition: all .2s ease;
       transform: scale(1.1);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-      .b-project-list .e-list-item:hover .e-shader-panel {
-        opacity: .9; }
     .b-project-list .e-list-item.m-no-logo {
       background-image: url("/static/img/projects/project-no-logo.png"); }
-    .b-project-list .e-list-item .e-shader-panel {
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      padding: inherit;
-      position: absolute;
-      transition: opacity .2s ease-in;
-      opacity: .5;
-      z-index: 1; }
     .b-project-list .e-list-item .e-project-title {
       color: #ee5b43;
       font-size: 18px;
