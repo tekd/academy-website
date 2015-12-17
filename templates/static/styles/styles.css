@@ -1652,6 +1652,29 @@ p,
 .b-single-description {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 50px 0 40px; }
+  .b-single-description .e-tags {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0; }
+    .b-single-description .e-tags h5 {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.3); }
+      .b-single-description .e-tags h5:not(:first-child) {
+        margin-top: 15px; }
+    .b-single-description .e-tags .e-tag {
+      display: inline-block;
+      margin-bottom: 4px;
+      color: #333;
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 2px 8px;
+      font-size: 14px;
+      letter-spacing: .6px; }
+      .b-single-description .e-tags .e-tag:hover {
+        background-color: rgba(0, 0, 0, 0.3); }
   .b-single-description h2 {
     margin: 0;
     font-weight: 600;

@@ -2,6 +2,40 @@
     background-color: $gray-80;
     padding: 50px 0 40px;
 
+     .e-tags {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 0;
+
+        h5 {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 0;
+            color: $gray-30;
+
+            &:not(:first-child) {
+                margin-top: 15px;
+            }
+        }
+
+        .e-tag {
+            display: inline-block;
+            margin-bottom: 4px;
+            color: $black;
+            background-color: $gray-10;
+            padding: 2px 8px;
+            font-size: 14px;
+            letter-spacing: .6px;
+
+            &:hover {
+                background-color: $gray-30;
+            }
+        }
+    }
+
+
     h2 {
         margin: 0;
         font-weight: 600;
