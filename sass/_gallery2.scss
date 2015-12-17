@@ -29,9 +29,25 @@
 		background-color: $gray-10;
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;
+		background-size: 120%;
 		margin: 30px 0 0;
 		position: relative;
+		transition: background-size .2s linear;
+
+		&:hover {
+			transition: background-size 3s ease-out;
+			background-size: 100%;
+			.e-shader-panel {
+				opacity: .9
+			}
+			.e-project-title {
+				color: $white;
+				text-shadow: 2px 2px #000;
+			}
+			.e-tagline {
+				color: $white;
+			}
+		}
 
 		.e-shader-panel {
 			height: 100%;
@@ -40,24 +56,19 @@
 			left: 0;
 			padding: inherit;
 			position: absolute;
-			background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0));
-			&:hover {
-				background: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0.6));
-				.e-project-title {
-					color: $white;
-					text-shadow: 2px 2px #000;
-				}
-				.e-tagline {
-					color: $white;
-				}
-			}
+			transition: opacity .2s ease-in;
+			background: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0.5));
+			opacity: .5;
+			z-index: 1;
 		}
 
 		.e-project-title {
 			color: $white-90;
 			font-size: 18px;
+			position: relative;
 			text-transform: uppercase;
 			font-weight: 600;
+			z-index: 2;
 		}
 
 		.e-tagline {
@@ -67,6 +78,7 @@
 			bottom: 0;
 			left: 0;
 			padding: 20px;
+			z-index: 2;
 		}
 	}
 }
