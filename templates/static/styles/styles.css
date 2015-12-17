@@ -1502,7 +1502,6 @@ p,
     font-weight: 600;
     padding: 15px 0;
     margin: 15px 0;
-    display: inline-block;
     position: relative; }
     .b-single-landing .e-project-link i {
       position: absolute;
@@ -1669,6 +1668,18 @@ p,
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto; }
+  .b-single-description .e-social-media {
+    padding: 20px 0; }
+    .b-single-description .e-social-media a {
+      color: #4f3081;
+      font-size: 22px;
+      line-height: 16px;
+      display: inline-block;
+      padding: 10px;
+      transition: all 0.4s ease; }
+      .b-single-description .e-social-media a:hover {
+        color: #9981c0;
+        transition: all 0.4s ease; }
 
 .b-project-slider {
   width: 100%;

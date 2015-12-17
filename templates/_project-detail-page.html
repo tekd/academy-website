@@ -28,15 +28,17 @@
             {% if project.www %}
             <p><strong>Project Website:</strong> <a href="{{project.www}}" target="_blank" class="e-project-link">{{project.www}}</a></p>
             {% endif %}
-            {% if project.twitter %}
-            <p><strong><i class="fa fa-twitter"></i></strong> <a href="http://twitter.com/{{project.twitter | replace('@', '')}}" target="_blank" class="e-project-link">{{project.twitter}}</a></p>
-            {% endif %}
-            {% if project.facebook %}
-            <p><strong><i class="fa fa-facebook"></i></strong> <a href="http://facebook.com/{{project.facebook}}" target="_blank" class="e-project-link">{{project.facebook}}</a></p>
-            {% endif %}
-            {% if project.email %}
-            <p><strong><i class="fa fa-envelope"></i></strong> <a href="mailto:{{project.email}}" target="_blank" class="e-project-link">{{project.email}}</a></p>
-            {% endif %}
+            <div class="e-social-media">
+                {% if project.twitter %}
+                <a href="http://twitter.com/{{project.twitter | replace('@', '')}}" target="_blank" class=""><i class="fa fa-twitter"></i></a>
+                {% endif %}
+                {% if project.facebook %}
+                <a href="http://facebook.com/{{project.facebook}}" target="_blank" class=""><i class="fa fa-facebook"></i></a>
+                {% endif %}
+                {% if project.email %}
+                <a href="mailto:{{project.email}}" target="_blank" class=""><i class="fa fa-envelope"></i></a>
+                {% endif %}
+            </div>
             {% if project.team %}
             <div class="e-team">
                 <h4>Team</h4>
