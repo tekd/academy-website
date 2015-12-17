@@ -16,11 +16,14 @@
 #     - image3.jpg
 #     - image4.jpg
 
+# original status types
+# define || prototype || test || complete
+
 - title: "Beacon: Mobile Phone­-Based Emergency Medical Dispatch for Resource­-Limited"
   location: "Montecristi, Dominican Republic & Mwanza, Tanzania"
   tagline: "911 Where There is None"
   description: "BEACON is a text message-based emergency medical dispatching software created by Trek Medics International, and designed specifically for communities where consistent ambulance response is not available. By relaying text messages from the scene of an emergency to trained responders throughout the community, the software enables the nearest available emergency care providers to quickly locate, treat and transport emergency victims to local hospitals."
-  status: "complete" # define || prototype || test || complete
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@trekmedics.org"
   twitter: "@trekmedics"
   facebook: "Trek-Medics-International-114525621925"
@@ -48,7 +51,7 @@
   location: "Western Cape, South Africa"
   tagline: "You be the Scientist!"
   description: "Cape Citizen Science is a project to couple hypothesis driven research about plant disease in the fynbos biome of South Africa with educational outreach."
-  status: "complete" # define || prototype || test || complete
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "joey.hulbert@fabi.up.ca.za"
   twitter: "@capecitsci"
   facebook: "capecitsci"
@@ -76,7 +79,7 @@
   location: "New York, NY"
   tagline: "Helping People Obtain, Understand & Use Environmental Information"
   description:  "Right now, environmental information is hard to get, and even harder to understand and use. Green Archives will be a well-established source for environmental information. It will also go beyond basic information access, connecting people with individuals and organizations that can help them ¨translate” the complex jargon of environmental information and link them to others interested in environmental advocacy and action related to the information they seek. Through environmental information access and online connection opportunities, Green Archives will connect localized communities with wider networks that may help facilitate legislative, judicial, or regulatory community work to face the environmental issue at hand."
-  status: "define" # define || prototype || test || complete
+  status: "idea" # idea || prototype || testing || private-beta || public-beta || launched
   email: "sarah.lamdan@law.cuny.edu"
   twitter: "@greenarchives1"
   facebook:
@@ -97,7 +100,7 @@
   location: "All Across Canada, but mainly in Ottawa"
   tagline: "Using Design and Co-Creation to Help Reduce Overrepresentation in the Criminal Justice System"
   description:  "Sparked by a conversation at the Department of Justice Canada’s 2014 Policy Bazaar, the Policy Sector recently launched the Indigenous Policy and Program Innovation (IPPI) Hub, an 18-month pilot that will explore how new policy techniques, such as design thinking, can be used to address the over-representation of Indigenous people in the criminal justice system. Similar to other labs in the federal government, the IPPI Hub brings together various stakeholders to collect and share information, test new approaches, conduct analysis and co-create options and solutions directly with the users or citizens affected by a policy issue. In addition to applying innovative approaches to Indigenous justice-related policy and program development, the Hub’s mandate also includes raising awareness of new policy development techniques. The IPPI Hub believes that innovation shouldn’t happen in silos nor should innovation be the responsibility of one official or group. The IPPI Hub believes that innovation shouldn’t happen in silos nor should innovation be the responsibility of one official or group. The IPPI Hub envisions Justice Canada as a department where officials at all levels, regardless of their job title, are equipped with the knowledge to use innovative tools in all areas of their work (where possible)."
-  status: "complete" # define || prototype || test || complete
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "IPPIHub@justice.gc.ca"
   twitter: "@ScipioCK"
   facebook:
@@ -130,7 +133,7 @@
   location: "Quito, Ecuador"
   tagline: "Co-Creating High Impact Solutions for Quito"
   description:  "LINQ is a space for dialogue and direct collaboration between citizens, local and international organizations, colleges, as well as public and private sectors; with the purpose of co-creating high impact of solutions to our most pressing issues."
-  status: "complete" # define || prototype || test || complete
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "carolina.pozo.d@gmail.com"
   twitter: "@linqlab"
   facebook: "linqlab"
@@ -173,7 +176,7 @@
   location: "Quito, Ecuador (Also available to any city through www.openmycity.org)"
   tagline: "Open Government Platform to Monitor Public Infrastructure Projects"
   description:  "My City is an open source platform for governments or organizations to show key data of public infrastructure projects: contracting process, budget, geolocation, entity responsible, and percentage of advance. It provides users a tool to monitor the advances of each project by commenting, sharing and contrasting with their own picture on a specific project. #citizenaudit"
-  status: "complete" # define || prototype || test || complete
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "carolina.pozo.d@gmail.com"
   twitter: "@openmycity"
   facebook:
@@ -207,7 +210,7 @@
   location: "New Brunswick, Canada"
   tagline: "Creating the nou New Brunswick"
   description:  "NouLAB is the New Brunswick’s public and social innovation lab. We help the public and innovators act together to address our most pressing social, environmental, and economic challenges. By connecting change agents from across sectors, convening them around pressing issues, and facilitating their journey to deep change, NouLAB is making the change process smarter. NouLAB is a partnership between the Pond-Deshpande Centre, NB Social Policy Research Network, and NB Non-Profit Housing, with support from the GovLab, MaRD Solutions Lab, and the J.W. McConnell Family Foundation."
-  status: "complete" # define || prototype || test || complete
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email:
   twitter: "@NuLAB"
   facebook:
@@ -243,7 +246,7 @@
   location: "New York City"
   tagline: "New York City Council Demystified"
   description:  "NYC Councilmatic (http://nyc.councilmatic.org/) is a new website for tracking and understanding what’s happening in the NYC Council. It’s free, open-source, and has generated the first-ever open data on every legislative action in the NYC Council. Councilmatic is a non-profit and non-partisan public resource, from the NYC-based Participatory Politics Foundation. It works for individuals and organization to access official NYC government info, public event schedules, and to hold public discussions about issues in their communities. Coming next: email & SMS alerts for committee hearings and council meetings, including agendas and minutes."
-  status: "complete" # define || prototype || test || complete
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "davidd@ppolitics.org"
   twitter:
   facebook:
@@ -281,7 +284,7 @@
   location: "New York City, NY"
   tagline: "NYC: Prepared is a coalition of technologists and local leaders working together to co-create free/libre/open disaster relief and community resilience software solutions for New York City."
   description:  "NYC: Prepared is a coalition of technologists and local leaders working together to co-create free/libre/open disaster relief and community resilience information management solutions for New York City."
-  status: "test" # define || prototype || test || complete
+  status: "testing" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@nycprepared.org"
   twitter: "@nycprepared"
   facebook:
@@ -314,7 +317,7 @@
   location: "Worldwide"
   tagline: "Democratizing Access to Public Finances Data"
   description:  "Budgeting and expenditure data is the quantitative expression of a government’s priorities. Making it available to the public imposes hard challenges that not every administration is ready to undertake. The lack of IT capabilities and constrained resources of government agencies make it difficult for them to respond to the demands of information from their constituencies, transparency advocates, the press and central governments. Moreover, these administrations don’t usually have access to analysis tools that help them view how the resources are being used and to detect potential risks of misspending. SpendView is a platform for analysis and visualization of government budget, expenditure and revenue data."
-  status: "test" # define || prototype || test || complete
+  status: "testing" # idea || prototype || testing || private-beta || public-beta || launched
   email: "hola@presupuestoabierto.org"
   twitter:
   facebook:
@@ -339,7 +342,7 @@
   location: "Mexico"
   tagline: "Democratizing the Public Spending on Technology"
   description:  "In 2014, Retos Publicos was launched in collaboration between Codeando Mexico and the National Digital Strategy (NDS), to open procurement for IT development to SMEs. Through 10 contests, 8 Federal Ministries engaged with over 1100 participants, 150 SMEs to create 45 prototypes for digital solutions that resulted in 9 new open source tools for citizen engagement, efficiency, transparency and participation (see retos.gob.mx). Parallel to the program a diagnostic of the legal framework for the acquisition of digital services in MExico was made by Centro de Investigacion y Desarrollo Economico (CIDE)."
-  status: "prototype" # define || prototype || test || complete
+  status: "prototype" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@retos.gob.mx"
   twitter:
   facebook:

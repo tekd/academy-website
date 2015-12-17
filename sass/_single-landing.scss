@@ -226,26 +226,36 @@
         }
 
         span:nth-child(1):before {
-            content: "Define";
-            @include breakpoint($desktop) { right: 90%; }
+            content: "Ideation";
+            @include breakpoint($desktop) { right: 80%; }
         }
         span:nth-child(2):before {
-            content: "Prototype";
-            @include breakpoint($desktop) { right: 65%; }
+            content: "Prototyping";
+            @include breakpoint($desktop) { right: 64%; }
         }
         span:nth-child(3):before {
-            content: "Test & Iteration";
-            @include breakpoint($desktop) { right: 30%; }
+            content: "User Testing";
+            @include breakpoint($desktop) { right: 48%; }
         }
         span:nth-child(4):before {
-            content: "Complete";
+            content: "Private Beta";
+            @include breakpoint($desktop) { right: 32%; }
+        }
+        span:nth-child(5):before {
+            content: "Public Beta";
+            @include breakpoint($desktop) { right: 16%; }
+        }
+        span:nth-child(6):before {
+            content: "Launched";
             @include breakpoint($desktop) { right: 0; }
         }
 
-        &.m-define span:nth-child(1):before,
+        &.m-idea span:nth-child(1):before,
         &.m-prototype span:nth-child(2):before,
-        &.m-test span:nth-child(3):before,
-        &.m-complete span:nth-child(4):before {
+        &.m-testing span:nth-child(3):before,
+        &.m-private-beta span:nth-child(4):before,
+        &.m-public-beta span:nth-child(5):before,
+        &.m-launched span:nth-child(6):before {
             color: $white-90;
 
             @include breakpoint($mobile-only) {
@@ -254,10 +264,12 @@
             }
         }
 
-        &.m-define:after { width: 10%;}
-        &.m-prototype:after { width: 35%; }
-        &.m-test:after { width: 70%; }
-        &.m-complete:after { width: 100%; }
+        &.m-idea:after { width: 16%;}
+        &.m-prototype:after { width: 32%; }
+        &.m-testing:after { width: 48%; }
+        &.m-private-beta:after { width: 64%; }
+        &.m-public-beta:after { width: 80%; }
+        &.m-launched:after { width: 100%; }
     }
 
     .e-social-media {

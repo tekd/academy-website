@@ -1591,38 +1591,52 @@ p,
         display: block;
         color: rgba(255, 255, 255, 0.3); } }
   .b-single-landing .e-progress span:nth-child(1):before {
-    content: "Define"; }
+    content: "Ideation"; }
     @media (min-width: 1025px) {
       .b-single-landing .e-progress span:nth-child(1):before {
-        right: 90%; } }
+        right: 80%; } }
   .b-single-landing .e-progress span:nth-child(2):before {
-    content: "Prototype"; }
+    content: "Prototyping"; }
     @media (min-width: 1025px) {
       .b-single-landing .e-progress span:nth-child(2):before {
-        right: 65%; } }
+        right: 64%; } }
   .b-single-landing .e-progress span:nth-child(3):before {
-    content: "Test & Iteration"; }
+    content: "User Testing"; }
     @media (min-width: 1025px) {
       .b-single-landing .e-progress span:nth-child(3):before {
-        right: 30%; } }
+        right: 48%; } }
   .b-single-landing .e-progress span:nth-child(4):before {
-    content: "Complete"; }
+    content: "Private Beta"; }
     @media (min-width: 1025px) {
       .b-single-landing .e-progress span:nth-child(4):before {
+        right: 32%; } }
+  .b-single-landing .e-progress span:nth-child(5):before {
+    content: "Public Beta"; }
+    @media (min-width: 1025px) {
+      .b-single-landing .e-progress span:nth-child(5):before {
+        right: 16%; } }
+  .b-single-landing .e-progress span:nth-child(6):before {
+    content: "Launched"; }
+    @media (min-width: 1025px) {
+      .b-single-landing .e-progress span:nth-child(6):before {
         right: 0; } }
-  .b-single-landing .e-progress.m-define span:nth-child(1):before, .b-single-landing .e-progress.m-prototype span:nth-child(2):before, .b-single-landing .e-progress.m-test span:nth-child(3):before, .b-single-landing .e-progress.m-complete span:nth-child(4):before {
+  .b-single-landing .e-progress.m-idea span:nth-child(1):before, .b-single-landing .e-progress.m-prototype span:nth-child(2):before, .b-single-landing .e-progress.m-testing span:nth-child(3):before, .b-single-landing .e-progress.m-private-beta span:nth-child(4):before, .b-single-landing .e-progress.m-public-beta span:nth-child(5):before, .b-single-landing .e-progress.m-launched span:nth-child(6):before {
     color: rgba(255, 255, 255, 0.9); }
     @media (max-width: 800px) {
-      .b-single-landing .e-progress.m-define span:nth-child(1):before, .b-single-landing .e-progress.m-prototype span:nth-child(2):before, .b-single-landing .e-progress.m-test span:nth-child(3):before, .b-single-landing .e-progress.m-complete span:nth-child(4):before {
+      .b-single-landing .e-progress.m-idea span:nth-child(1):before, .b-single-landing .e-progress.m-prototype span:nth-child(2):before, .b-single-landing .e-progress.m-testing span:nth-child(3):before, .b-single-landing .e-progress.m-private-beta span:nth-child(4):before, .b-single-landing .e-progress.m-public-beta span:nth-child(5):before, .b-single-landing .e-progress.m-launched span:nth-child(6):before {
         display: inline-block;
         font-weight: 600; } }
-  .b-single-landing .e-progress.m-define:after {
-    width: 10%; }
+  .b-single-landing .e-progress.m-idea:after {
+    width: 16%; }
   .b-single-landing .e-progress.m-prototype:after {
-    width: 35%; }
-  .b-single-landing .e-progress.m-test:after {
-    width: 70%; }
-  .b-single-landing .e-progress.m-complete:after {
+    width: 32%; }
+  .b-single-landing .e-progress.m-testing:after {
+    width: 48%; }
+  .b-single-landing .e-progress.m-private-beta:after {
+    width: 64%; }
+  .b-single-landing .e-progress.m-public-beta:after {
+    width: 80%; }
+  .b-single-landing .e-progress.m-launched:after {
     width: 100%; }
   .b-single-landing .e-social-media {
     padding: 20px 0; }
