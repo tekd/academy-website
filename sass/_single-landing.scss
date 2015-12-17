@@ -227,15 +227,15 @@
 
         span:nth-child(1):before {
             content: "Ideation";
-            @include breakpoint($desktop) { right: 80%; }
+            @include breakpoint($desktop) { right: 88%; }
         }
         span:nth-child(2):before {
             content: "Prototyping";
-            @include breakpoint($desktop) { right: 64%; }
+            @include breakpoint($desktop) { right: 70%; }
         }
         span:nth-child(3):before {
             content: "User Testing";
-            @include breakpoint($desktop) { right: 48%; }
+            @include breakpoint($desktop) { right: 51%; }
         }
         span:nth-child(4):before {
             content: "Private Beta";
@@ -264,11 +264,11 @@
             }
         }
 
-        &.m-idea:after { width: 16%;}
-        &.m-prototype:after { width: 32%; }
-        &.m-testing:after { width: 48%; }
-        &.m-private-beta:after { width: 64%; }
-        &.m-public-beta:after { width: 80%; }
+        &.m-idea:after { width: 12%;}
+        &.m-prototype:after { width: 30%; }
+        &.m-testing:after { width: 49%; }
+        &.m-private-beta:after { width: 68%; }
+        &.m-public-beta:after { width: 84%; }
         &.m-launched:after { width: 100%; }
     }
 
