@@ -2316,23 +2316,21 @@ p,
     height: 0;
     padding: 20px;
     padding-bottom: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 120%;
+    background-size: 50%;
     margin: 30px 0 0;
     position: relative;
-    transition: background-size .2s linear; }
+    transition: all .2s ease; }
     .b-project-list .e-list-item:hover {
-      transition: background-size 3s ease-out;
-      background-size: 100%; }
+      transition: all .2s ease;
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
       .b-project-list .e-list-item:hover .e-shader-panel {
-        opacity: 0.9; }
-      .b-project-list .e-list-item:hover .e-project-title {
-        color: white;
-        text-shadow: 2px 2px #000; }
-      .b-project-list .e-list-item:hover .e-tagline {
-        color: white; }
+        opacity: .9; }
+    .b-project-list .e-list-item.m-no-logo {
+      background-image: url("/static/img/projects/project-no-logo.png"); }
     .b-project-list .e-list-item .e-shader-panel {
       height: 100%;
       width: 100%;
@@ -2341,18 +2339,17 @@ p,
       padding: inherit;
       position: absolute;
       transition: opacity .2s ease-in;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
       opacity: .5;
       z-index: 1; }
     .b-project-list .e-list-item .e-project-title {
-      color: rgba(255, 255, 255, 0.9);
+      color: #ee5b43;
       font-size: 18px;
       position: relative;
       text-transform: uppercase;
       font-weight: 600;
       z-index: 2; }
     .b-project-list .e-list-item .e-tagline {
-      color: rgba(255, 255, 255, 0.9);
+      color: rgba(0, 0, 0, 0.8);
       font-size: 14px;
       position: absolute;
       bottom: 0;
