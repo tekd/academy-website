@@ -1594,17 +1594,17 @@ p,
     content: "Ideation"; }
     @media (min-width: 1025px) {
       .b-single-landing .e-progress span:nth-child(1):before {
-        right: 80%; } }
+        right: 88%; } }
   .b-single-landing .e-progress span:nth-child(2):before {
     content: "Prototyping"; }
     @media (min-width: 1025px) {
       .b-single-landing .e-progress span:nth-child(2):before {
-        right: 64%; } }
+        right: 70%; } }
   .b-single-landing .e-progress span:nth-child(3):before {
     content: "User Testing"; }
     @media (min-width: 1025px) {
       .b-single-landing .e-progress span:nth-child(3):before {
-        right: 48%; } }
+        right: 51%; } }
   .b-single-landing .e-progress span:nth-child(4):before {
     content: "Private Beta"; }
     @media (min-width: 1025px) {
@@ -1627,15 +1627,15 @@ p,
         display: inline-block;
         font-weight: 600; } }
   .b-single-landing .e-progress.m-idea:after {
-    width: 16%; }
+    width: 12%; }
   .b-single-landing .e-progress.m-prototype:after {
-    width: 32%; }
+    width: 30%; }
   .b-single-landing .e-progress.m-testing:after {
-    width: 48%; }
+    width: 49%; }
   .b-single-landing .e-progress.m-private-beta:after {
-    width: 64%; }
+    width: 68%; }
   .b-single-landing .e-progress.m-public-beta:after {
-    width: 80%; }
+    width: 84%; }
   .b-single-landing .e-progress.m-launched:after {
     width: 100%; }
   .b-single-landing .e-social-media {
