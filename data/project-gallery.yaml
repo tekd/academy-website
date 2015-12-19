@@ -381,3 +381,362 @@
     - retos-project3.jpg
   tags:
     - Tech Procurement
+
+- title: "Bidacity"
+  location: "New Jersey"
+  tagline: "An intelligent marketplace that connects governments with solutions and service-providers."
+  description:  "The goal is to create a digital platform that will increase the efficiency and adaptability of local governments through the purchase, evaluation and utilization of information technology and website design. Bidacity gives local government purchasing agents and IT specialist’s access to the best digital tech developers, vendors and consultants at the most reasonable cost. The website improves the interaction between vendors with local government, promotes the adoption of good practices in local businesses, and helps government officials form strong scopes of work with an eye to long-term development goals. The initial focus of Bidacity is on projects in technology because of the greater potential reductions in cost and time and the critical evolution needed in government IT."
+  status: "prototype" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "x@markthemark.com"
+  twitter:
+  facebook:
+  www:
+  team:
+    - first_name: Mark
+      last_name: Hansen
+      position: Design
+      url:
+    - first_name: Yoshi
+      last_name: Manale
+      position: Business
+      url:
+    - first_name: Nick
+      last_name: Sahler
+      position: Development
+      url:
+  impact:
+  year: 2015
+  logo: logo-bidacity.jpg
+  images:
+    - bidacity-project1.png
+  tags:
+    - Open Contracting
+    - Tech Procurement
+
+- title: "Democratic Regeneration Through Technology: Learning From Podemos in Spain"
+  location: "Madrid, Spain"
+  tagline: "Turning Grassroots Activism into Participatory, Accountable Governance"
+  description:  "Since 2008, Europe has faced its deepest economic and political crisis since Second World War. In this context, new social movements and political parties are emerging, particularly in Southern European democracies. Podemos, a new Spanish political party born from grassroots activism and protests (Indignados Movement), is trying to reinvigorate public institutions that have lost the trust of the public introducing massive online direct democracy participation mechanisms where Spanish citizens can make proposals, ask questions of Podemos leaders, and even propose projects for which to use party money. Taking into account that the citizen’s response to this political initiative is being overwhelming, our project studies the unique tools Podemos has implemented to analyze the potential, and potential pitfalls, of more direct and participatory democracy. Using Podemos as a case study, the project is theoretically and socially relevant because it aims to analyze a unique contemporary experience of direct democracy and recommend &quot;best practices&quot; to other parties around the world, and across the political spectrum, that wish to experiment with and implement direct democratic participation through democracy. The project will discuss the successes and problems Podemos has faced in rolling out these tools, and recommendations for their use going forward in terms of how new technologies can better serve to democratic regeneration."
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "victoria_alsina@hks.harvard.edu"
+  twitter:
+  facebook:
+  www: "https://technologicalalgora.wordpress.com"
+  team:
+    - first_name: Victoria
+      last_name: Alsina Burgues
+      position: "Fellow at Mossavar-Rahmani Center for Business & Government, Harvard Kennedy School (Team Leader)"
+      url:
+    - first_name: Jake
+      last_name: Silberg
+      position: Shelton Fellow at Harvard
+      url:
+    - first_name: Luis
+      last_name: Alegre
+      position:
+      url:
+    - first_name: Miguel
+      last_name: Ardanuy
+      position:
+      url:
+    - first_name: Carolina
+      last_name: Bescansa
+      position:
+      url:
+    - first_name: Pablo
+      last_name: Iglesias
+      position:
+      url:
+    - first_name: Eric
+      last_name: Labuske
+      position:
+      url:
+    - first_name: Pablo
+      last_name: Soto
+      position:
+      url:
+  impact: 46000000
+  year: 2014
+  logo: logo-democratic-regeneration-through-technology.jpg
+  images:
+    - regeneration-project1.jpeg
+    - regeneration-project2.jpeg
+    - regeneration-project3.jpg
+  tags:
+    - Big Data
+    - Citizen Engagement
+    - Collective Intelligence
+    - Crowdsourcing
+    - Legal Innovation
+    - Open Contracting
+    - Open Data
+
+- title: "Fabrica de Laboratorio (Labs Fabric)"
+  location: "America"
+  tagline: "The Fabric Helps You"
+  description:  "Fabrica de Laboratorios &quot;Fabrics of Labs&quot; is a project that helps you to create the right Open GovLab. The Fabric encourages Public Participation Experimentation and Open Data"
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "paulina@civica.digital"
+  twitter:
+  facebook:
+  www: "http://technologicalalgora.wordpress.com"
+  team:
+    - first_name: Paulina
+      last_name: Bustos Arellano
+      position:
+      url: "mailto:paulina@civica.digital"
+    - first_name: Laura
+      last_name: Paonessa
+      position:
+      url: "mailto:laurapaonessa@gmail.com"
+    - first_name: Daniel
+      last_name: Carranza
+      position:
+      url: "mailto:daniel.chino.carranza@gmail.com"
+    - first_name: Fernanda
+      last_name: Campagnucci
+      position:
+      url: "mailto:campagnucci@gmail.com"
+    - first_name: Gerardo
+      last_name: Perez
+      position:
+      url: "mailto:perezgerardo24@gmail.com"
+    - first_name: Gustavo
+      last_name: Maultasch de Oliveira
+      position:
+      url:
+  impact: 100
+  year: 2015
+  logo:
+  images:
+  tags:
+    - Agile Research
+    - Citizen Engagement
+    - Citizen Science
+
+- title: "LDLN (Pronounced 'Landline')"
+  location: "Cascadia Region, USA and Canada"
+  tagline: "Locally Distributed Logistics Network"
+  description:  "We provide the framework & technology for organizations and individuals to instantly communicate rich data without the need for Internet, cell service, satellites or phone lines."
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "info@ldln.co"
+  twitter: "@LandlinePH"
+  facebook: "ldln.co"
+  www: "http://www.ldln.co/"
+  team:
+    - first_name: Matthew
+      last_name: Grasser
+      position: CEO
+      url:
+    - first_name: Christopher
+      last_name: Guess
+      position: COO
+      url:
+    - first_name: Nick
+      last_name: Ihm
+      position: CTO
+      url:
+    - first_name: Emily
+      last_name: Duong
+      position: CCO
+      url:
+    - first_name: Kristine
+      last_name: Sanchez
+      position: Designer
+      url:
+    - first_name: Sam
+      last_name: Krueckeberg
+      position: Senior Developer
+      url:
+    - first_name: Joyce
+      last_name: de Vera
+      position: Designer
+      url:
+    - first_name: Arthur
+      last_name: Chen
+      position: Legal Advisor
+      url:
+  impact: 7300000000
+  year: 2015
+  logo: logo-ldln.jpeg
+  images:
+    - ldln-project1.jpg
+    - ldln-project2.jpg
+    - ldln-project3.jpg
+    - ldln-project4.jpg
+  tags:
+    - Citizen Science
+    - Collective Intelligence
+    - Crowdsourcing
+    - Data Analytics
+    - Humanitarian Innovation
+    - Tech Procurement
+    - Communications
+
+- title: "MuckRock"
+  location: "Across the United States"
+  tagline: "MuckRock is the easy way to request, analyze & share government documents, making politics more transparent and democracies more informed."
+  description:  "MuckRock is an independent investigative news site and public records tool, helping journalists, researchers, and the public access and understand government data. It operates in all 50 states and has done in-depth investigations into everything from domestic surveillance to the private prisons system."
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "info@muckrock.com"
+  twitter: "@muckrock"
+  facebook: "muckrock"
+  www: "https://www.muckrock.com/"
+  team:
+    - first_name: Michael
+      last_name: Morisy
+      position: Co-Founder
+      url: "http://www.twitter.com/morisy"
+    - first_name: Mitchell
+      last_name: Kotler
+      position: Co-Founder
+      url:  "http://j.mp/1NT0MEIJ"
+    - first_name: Patrick
+      last_name: Brown
+      position: Editor
+      url: "https://twitter.com/resentfultweet"
+    - first_name: Beryl
+      last_name: Lipton
+      position: Reporter
+      url: "www.twitter.com/_blip_"
+    - first_name: Allan
+      last_name: Lasser
+      position: Developer
+      url: "www.twitter.com/allanlasser"
+  impact: 4500000
+  year: 2015
+  logo: logo-muckrock.png
+  images:
+  tags:
+    - Big Data
+    - Citizen Engagement
+    - Collective Intelligence
+    - Crowdsourcing
+    - Data Analytics
+    - Open Contracting
+    - Open Data
+    - Tech Procurement
+
+- title: "Open Journalism: Journalists and Citizens United in Reporting Public Issues"
+  location: "Online. The first pilot will include Brazil, Colombia and other Latin American countries."
+  tagline: "Uniting Journalists and Citizens to Create Public-Oriented News Reports on Public Issues"
+  description:  "Our project makes use of crowdsourcing tools to unite journalists and citizens in making the news. We use the participative culture of the web to aid journalists to seek help of citizens in reporting public issues, and to aid motivated citizens to engage in the news agenda. We capacitative, challenge and motivate journalists, citizens and hackers to work together, constructively, in news making processes."
+  status: "prototype" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "ofabro@ofabro.com"
+  twitter: "@PeriodismoAbier"
+  facebook:
+  www: "http://www.agendapropia.co/PERIODISMOABIERTO/en/"
+  team:
+    - first_name: Edilma
+      last_name: Prada Cespedes
+      position: Journalism Expert
+      url: "http://twitter.com/edilmaprada"
+    - first_name: Fabro
+      last_name: Steibel
+      position: Open Government Expert
+      url:  "http://ofabro.com"
+  impact: 9999
+  year: 2015
+  logo: logo-open-journalism.png
+  images:
+    - journalism-project1.png
+    - journalism-project2.png
+  tags:
+    - Agile Research
+    - Big Data
+    - Citizen Engagement
+    - Citizen Science
+    - Collective Intelligence
+    - Crowdsourcing
+    - Data Analytics
+    - Humanitarian Innovation
+    - Open Data
+
+- title: "PolicyAtlas"
+  location: "Global online audience. Based in New York, NY, U.S."
+  tagline: "Mapping and crowdsourcing the universe of public policy solutions."
+  description:  "PolicyAtlas is a growing, non-­partisan project to develop a user-contributed encyclopedia of known public policy solutions (the “Atlas”). The Atlas will cover all major policy fields such as education, environmental, health, and transportation policy. For example, when a local government official seeks to reduce pedestrian deaths from automobile accidents, they can search the Atlas for policies that aim to achieve this goal and be presented with options such as traffic calming devices, pedestrian bridges and complete street designations. Dedicated articles cover each featured policy concept with a summary of its goals, implementation considerations, research studies, and supporters and opponents. Ultimately, the goal of PolicyAtlas is to improve the quality of public policymaking--and the lives of all who are governed--by providing more public policy options, informing better choices among public policies, and improving the design of policies in order to increase their likely political viability and effectiveness."
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "policyatlas_exec@googlegroups.com"
+  twitter: "@policyatlas"
+  facebook:
+  www: "http://policyatlas.org"
+  team:
+    - first_name: Kevin
+      last_name: Hansen
+      position:
+      url: "http://www.kevinmhansen.com/about/"
+    - first_name: Matt
+      last_name: Lisiecki
+      position:
+      url:  "http://linkedin.com/in/malisiecki"
+    - first_name: Neil
+      last_name: Reilly
+      position:
+      url:  "http://reilly.nyc"
+  impact:
+  year: 2015
+  logo: logo-policyatlas.png
+  images:
+    - policy-project1.jpg
+    - policy-project2.png
+    - policy-project3.png
+    - policy-project4.png
+    - policy-project5.png
+  tags:
+    - Citizen Engagement
+    - Collective Intelligence
+    - Crowdsourcing
+
+- title: "Promise2030"
+  location: "UK"
+  tagline: "The Street Guide to Responsible Companies"
+  description:  "Promise2030 aims to encourage companies to take more actions to benefit the environment and society and to tell us where our money goes. People will be able to use a mobile app to ‘catch them doing something good’ - such as recycling, or saving energy. This way, we’ll create a large crowd-sourced database of responsible companies. We’ll start by targeting small towns in concerted campaigns to create competition between companies. This way we’ll quickly reach tipping points where they begin to ‘race to the top’. Business will realise that to be successful, they need to contribute positively to the environment and community."
+  status: "prototype" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "john.ranford@gmail.com"
+  twitter: "@johnranford"
+  facebook: "promise2030"
+  www:
+  team:
+    - first_name: John
+      last_name: Ranford
+      position: Creator
+      url: "http://theopenpledge.net/bio/"
+    - first_name: Mark
+      last_name: Ranford
+      position: Partner
+      url:  "http://www.linkedin.com/in/markranford"
+  impact:
+  year: 2015
+  logo: logo-promise2030.jpg
+  images:
+    - promise-project1.png
+    - promise-project2.png
+    - promise-project3.jpg
+    - promise-project4.jpg
+  tags:
+    - Citizen Engagement
+    - Crowdsourcing
+    - Nudges
+    - Open Data
+
+- title: "State and Local Secrecy"
+  location: "National Publications"
+  tagline: "Secrecy is on the Rise in States and Localities"
+  description: "This project, slated for publication in 2016, examines how state and local governments have fallen behind in the digital age and its impact on civic engagement and democracy."
+  status: "idea" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "mirandaspivack@yahoo.com"
+  twitter: "@mirandareporter"
+  facebook:
+  www:
+  team:
+    - first_name: Miranda
+      last_name: Spivack
+      position: "Independent Journalist and Fellow, Marquette Diedrich College of Journalism; Grant Recipient, Ravitch Fellowship, CUNY and Fund for Investigative Journalism"
+      url:
+  impact:
+  year: 2015
+  logo:
+  images:
+  tags:
+    - Open Data
