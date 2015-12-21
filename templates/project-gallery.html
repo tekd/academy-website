@@ -11,15 +11,19 @@
 <div class="b-project-list">
   <div class="b-wrap row">
     {% for card in projects|sort(attribute='title') %}
-    <div class="column large-4">
-      <a href="/project/{{card.title|slug}}.html" class="">
-        {% if card.logo %}
-        <article class="e-list-item " style="background-image: url('/static/img/projects/{{card.logo}}')">
-        {% else %}
-        <article class="e-list-item m-no-logo">
-        {% endif %}
-          <p class="e-project-title">{{card.title}}</p>
-          <p class="e-tagline">{{card.tagline}}</p>
+    <div class="column large-4 medium-6">
+      <a href="/project/{{card.title|slug}}.html" class="b-card">
+        <article class="e-card-inner {% if not card.logo %}m-no-logo{% endif %}">
+          
+          <section class="e-card-front" {% if card.logo %}style="background-image: url('/static/img/projects/{{card.logo}}')"{% endif %}>
+            <p class="e-front-title">{{card.title | max(20)}}</p>
+          </section>
+          
+          <section class="e-card-back">
+            <p class="e-project-title">{{card.title}}</p>
+            <p class="e-tagline">{{card.tagline}}</p>
+          </section>
+
         </article>
       </a>
     </div>
