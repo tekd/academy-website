@@ -1760,6 +1760,9 @@ p,
       @media (max-width: 800px) {
         .b-project-slider span .e-project-image {
           max-height: 240px; } }
+      @media (max-width: 1024px) {
+        .b-project-slider span .e-project-image {
+          max-height: 360px; } }
       @media (min-width: 1025px) {
         .b-project-slider span .e-project-image {
           max-height: 500px; } }
