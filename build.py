@@ -62,11 +62,19 @@ def nameTest(name, value):
     return '%s %s' % (name['first'], name['last']) == value
 
 
+def maxLen(string, n):
+    if len(string) > n:
+        return string[:n] + '...'
+    else:
+        return string
+
+
 filters = {
     'slug': slugify,
     'debug': debug,
     'byName': lambda x: [p for p in PEOPLE if p.name == x],
-    'isEmpty': isEmpty
+    'isEmpty': isEmpty,
+    'max': maxLen
 }
 
 
