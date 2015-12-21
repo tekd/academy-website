@@ -1,8 +1,9 @@
 .b-single-description {
     background-color: $gray-80;
     padding: 50px 0 40px;
+    position: relative;
 
-     .e-tags {
+    .e-tags {
         list-style-type: none;
         padding-left: 0;
         margin-top: 0;
@@ -70,6 +71,41 @@
             }
         }
     }
+
+    &.m-slider {
+        .material-icons {
+            opacity: 0;
+            font-size: 60px;
+            color: $white-90;
+            @include transition;
+        }
+
+        .e-left-arrow {
+            position: absolute;
+            left: 30px;
+        }
+
+        .e-right-arrow {
+            position: absolute;
+            right: 30px;
+        }
+
+        .e-right-arrow, .e-left-arrow {
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 5;
+            // pointer-events: none;
+        }
+
+        &:hover {
+            .material-icons {
+                opacity: 1;
+                font-size: 90px;
+                color: $white;
+                @include transition;
+            }
+        }
+    }
 }
 
 .b-project-slider {
@@ -104,4 +140,6 @@
 
 
     }
+
+
 }

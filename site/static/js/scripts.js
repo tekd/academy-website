@@ -2,7 +2,9 @@ $(document).ready(function() {
   $(document).foundation();
 
   $('.b-project-slider').slick({
-        arrows: false,
+        arrows: true,
+        prevArrow: "<div class='e-left-arrow'><i class='material-icons'>chevron_left</i></div>",
+        nextArrow: "<div class='e-right-arrow'><i class='material-icons'>chevron_right</i></div>",
         infinite: false,
         draggable: false,
         centerMode: true,
