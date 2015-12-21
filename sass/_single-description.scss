@@ -131,6 +131,7 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 
             @include breakpoint($mobile-only) { max-height: 240px; }
+            @include breakpoint($tablet) { max-height: 360px; }
             @include breakpoint($desktop) { max-height: 500px; }
         }
 
