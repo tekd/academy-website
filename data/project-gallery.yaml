@@ -19,21 +19,29 @@
 # original status types
 # define || prototype || test || complete
 
-- title: "Beacon: Mobile Phone­-Based Emergency Medical Dispatch for Resource­-Limited"
+- title: "Beacon: Mobile Phone-Based Emergency Medical Dispatch for Resource-Limited Settings"
+  short_title: "Beacon"
+  sectors: not-for-profit # not-for-profit || public-sector || academia || entrepreneur
   location: "Montecristi, Dominican Republic & Mwanza, Tanzania"
   tagline: "911 Where There is None"
+  background: "There are an estimated 4.5 billion mobile phone users across the globe, yet approximately 80% of the world’s population has no reliable way to call for help in the event of a life-threatening illness or injury. Nonetheless, lack of access to basic emergency health care services is a major contributor to health disparities between developed and developing nations with low- and middle-income countries having substantially higher mortality rates for what would otherwise be considered preventable deaths."
   description: "BEACON is a text message-based emergency medical dispatching software created by Trek Medics International, and designed specifically for communities where consistent ambulance response is not available. By relaying text messages from the scene of an emergency to trained responders throughout the community, the software enables the nearest available emergency care providers to quickly locate, treat and transport emergency victims to local hospitals."
+  impact: "Our goal is to ensure that 90% of victims requesting emergency assistance through the communities we work will be attended to by trained layperson responders with access to transport within 10 minutes in urban centers and within 30 minutes in peripheral communities. We believe that the minimal human, physical and financial resources associated with a text message-based emergency medical dispatch system will make the implementation of prehospital care systems possible wherever mobile phones are used, providing a sustainable and cost-effective model for other low-resource settings."
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@trekmedics.org"
   twitter: "@trekmedics"
-  facebook: "Trek-Medics-International-114525621925"
+  facebook: "http://facebook.com/Trek-Medics-International-114525621925"
   www: "http://trekmedics.org/"
   team:
-  - first_name: Jason
-    last_name: Friesen
-    position: Founder/Executive Director
-    url: "http://trekmedics.org/who-we-are/bios/"
-  impact: 3500000
+    - first_name: Jason
+      last_name: Friesen
+      position: Founder/Executive Director
+      url: "http://trekmedics.org/who-we-are/bios/"
+  partners:
+    - "Google.org, USAID"
+    - "Cardinal Health Foundation"
+    - "Henry E. Niles Foundation"
+    - "Widgeon Point Charitable Foundation"
   year: 2015
   logo: logo-beacon.png
   images:
@@ -50,13 +58,14 @@
     - Humanitarian Innovation
 
 - title: "Cape Citizen Science"
+  short_title:
   location: "Western Cape, South Africa"
   tagline: "You be the Scientist!"
   description: "Cape Citizen Science is a project to couple hypothesis driven research about plant disease in the fynbos biome of South Africa with educational outreach."
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "joey.hulbert@fabi.up.ca.za"
   twitter: "@capecitsci"
-  facebook: "capecitsci"
+  facebook: "http://facebook.com/capecitsci"
   www:
   team:
   - first_name: Joey
@@ -80,6 +89,7 @@
     - Open Data
 
 - title: "Green Archives"
+  short_title:
   location: "New York, NY"
   tagline: "Helping People Obtain, Understand & Use Environmental Information"
   description:  "Right now, environmental information is hard to get, and even harder to understand and use. Green Archives will be a well-established source for environmental information. It will also go beyond basic information access, connecting people with individuals and organizations that can help them ¨translate” the complex jargon of environmental information and link them to others interested in environmental advocacy and action related to the information they seek. Through environmental information access and online connection opportunities, Green Archives will connect localized communities with wider networks that may help facilitate legislative, judicial, or regulatory community work to face the environmental issue at hand."
@@ -103,6 +113,7 @@
     - Open Data
 
 - title: "Indigenous Policy and Program Innovation (IPPI) Hub"
+  short_title: "IPPI Hub"
   location: "All Across Canada, but mainly in Ottawa"
   tagline: "Using Design and Co-Creation to Help Reduce Overrepresentation in the Criminal Justice System"
   description:  "Sparked by a conversation at the Department of Justice Canada’s 2014 Policy Bazaar, the Policy Sector recently launched the Indigenous Policy and Program Innovation (IPPI) Hub, an 18-month pilot that will explore how new policy techniques, such as design thinking, can be used to address the over-representation of Indigenous people in the criminal justice system. Similar to other labs in the federal government, the IPPI Hub brings together various stakeholders to collect and share information, test new approaches, conduct analysis and co-create options and solutions directly with the users or citizens affected by a policy issue. In addition to applying innovative approaches to Indigenous justice-related policy and program development, the Hub’s mandate also includes raising awareness of new policy development techniques. The IPPI Hub believes that innovation shouldn’t happen in silos nor should innovation be the responsibility of one official or group. The IPPI Hub believes that innovation shouldn’t happen in silos nor should innovation be the responsibility of one official or group. The IPPI Hub envisions Justice Canada as a department where officials at all levels, regardless of their job title, are equipped with the knowledge to use innovative tools in all areas of their work (where possible)."
@@ -138,13 +149,14 @@
     - Service Design
 
 - title: "Innovation Lab Quito - LINQ"
+  short_title: "LINQ"
   location: "Quito, Ecuador"
   tagline: "Co-Creating High Impact Solutions for Quito"
   description:  "LINQ is a space for dialogue and direct collaboration between citizens, local and international organizations, colleges, as well as public and private sectors; with the purpose of co-creating high impact of solutions to our most pressing issues."
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "carolina.pozo.d@gmail.com"
   twitter: "@linqlab"
-  facebook: "linqlab"
+  facebook: "http://facebook.com/linqlab"
   www:
   team:
     - first_name: Carolina
@@ -180,9 +192,11 @@
     - Collective Intelligence
     - Crowdsourcing
     - Data Analytics
-    - Open Contracting and Open Data
+    - Open Contracting
+    - Open Data
 
 - title: "My City"
+  short_title:
   location: "Quito, Ecuador (Also available to any city through www.openmycity.org)"
   tagline: "Open Government Platform to Monitor Public Infrastructure Projects"
   description:  "My City is an open source platform for governments or organizations to show key data of public infrastructure projects: contracting process, budget, geolocation, entity responsible, and percentage of advance. It provides users a tool to monitor the advances of each project by commenting, sharing and contrasting with their own picture on a specific project. #citizenaudit"
@@ -218,7 +232,8 @@
     - Open Contracting
     - Open Data
 
-- title: "NouLAB"
+- title: "NouLAB - New Brunswick Housing Lab"
+  short_title: "NouLAB"
   location: "New Brunswick, Canada"
   tagline: "Creating the nou New Brunswick"
   background: "How might we ensure everyone has a place to sleep at night? How might we make newcomers to New Brunswick feel at home? How might we re-design New Brunswick’s food system, starting in our own backyards? New Brunswick’s greatest challenges are complex and require systems change. NouLAB was created to provide the place and process to work collaboratively on these challenges, designing solutions together, writing the narrative for the new New Brunswick."
@@ -264,14 +279,15 @@
     - Open Data
 
 - title: "NYC Councilmatic"
+  short_title:
   location: "New York City"
   tagline: "New York City Council Demystified"
-  description:  "NYC Councilmatic (http://nyc.councilmatic.org/) is a new website for tracking and understanding what’s happening in the NYC Council. It’s free, open-source, and has generated the first-ever open data on every legislative action in the NYC Council. Councilmatic is a non-profit and non-partisan public resource, from the NYC-based Participatory Politics Foundation. It works for individuals and organization to access official NYC government info, public event schedules, and to hold public discussions about issues in their communities. Coming next: email & SMS alerts for committee hearings and council meetings, including agendas and minutes."
+  description:  "NYC Councilmatic is a new website for tracking and understanding what’s happening in the NYC Council. It’s free, open-source, and has generated the first-ever open data on every legislative action in the NYC Council. Councilmatic is a non-profit and non-partisan public resource, from the NYC-based Participatory Politics Foundation. It works for individuals and organization to access official NYC government info, public event schedules, and to hold public discussions about issues in their communities. Coming next: email & SMS alerts for committee hearings and council meetings, including agendas and minutes."
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "davidd@ppolitics.org"
   twitter:
   facebook:
-  www:
+  www: "http://nyc.councilmatic.org/"
   team:
     - first_name: Jake
       last_name: Wildman-Sisk
@@ -301,9 +317,10 @@
     - Nudges
     - Open Data
     - Tech Procurement
-    - Open-Source
+    - Open Source
 
 - title: "NYC: Prepared"
+  short_title:
   sectors: not-for-profit # not-for-profit || public-sector || academia || entrepreneur
   location: "New York City, NY"
   tagline: "NYC: Prepared is a coalition of technologists and local leaders working together to co-create free/libre/open disaster relief and community resilience software solutions for New York City."
@@ -361,6 +378,7 @@
     - Open Data
 
 - title: "Presupuesto Abierto (SpendView)"
+  short_title: "SpendView"
   sectors:
     - academia
     - public-sector # not-for-profit || public-sector || academia || entrepreneur
@@ -395,6 +413,7 @@
     - Open Data
 
 - title: "Retos Publicos"
+  short_title:
   location: "Mexico"
   tagline: "Democratizing the Public Spending on Technology"
   description:  "In 2014, Retos Publicos was launched in collaboration between Codeando Mexico and the National Digital Strategy (NDS), to open procurement for IT development to SMEs. Through 10 contests, 8 Federal Ministries engaged with over 1100 participants, 150 SMEs to create 45 prototypes for digital solutions that resulted in 9 new open source tools for citizen engagement, efficiency, transparency and participation (see retos.gob.mx). Parallel to the program a diagnostic of the legal framework for the acquisition of digital services in MExico was made by Centro de Investigacion y Desarrollo Economico (CIDE)."
@@ -419,6 +438,7 @@
     - Tech Procurement
 
 - title: "Bidacity"
+  short_title:
   location: "New Jersey"
   tagline: "An intelligent marketplace that connects governments with solutions and service-providers."
   description:  "The goal is to create a digital platform that will increase the efficiency and adaptability of local governments through the purchase, evaluation and utilization of information technology and website design. Bidacity gives local government purchasing agents and IT specialist’s access to the best digital tech developers, vendors and consultants at the most reasonable cost. The website improves the interaction between vendors with local government, promotes the adoption of good practices in local businesses, and helps government officials form strong scopes of work with an eye to long-term development goals. The initial focus of Bidacity is on projects in technology because of the greater potential reductions in cost and time and the critical evolution needed in government IT."
@@ -450,6 +470,7 @@
     - Tech Procurement
 
 - title: "Democratic Regeneration Through Technology: Learning From Podemos in Spain"
+  short_title: "Democratic Regeneration Through Technology"
   location: "Madrid, Spain"
   tagline: "Turning Grassroots Activism into Participatory, Accountable Governance"
   description:  "Since 2008, Europe has faced its deepest economic and political crisis since Second World War. In this context, new social movements and political parties are emerging, particularly in Southern European democracies. Podemos, a new Spanish political party born from grassroots activism and protests (Indignados Movement), is trying to reinvigorate public institutions that have lost the trust of the public introducing massive online direct democracy participation mechanisms where Spanish citizens can make proposals, ask questions of Podemos leaders, and even propose projects for which to use party money. Taking into account that the citizen’s response to this political initiative is being overwhelming, our project studies the unique tools Podemos has implemented to analyze the potential, and potential pitfalls, of more direct and participatory democracy. Using Podemos as a case study, the project is theoretically and socially relevant because it aims to analyze a unique contemporary experience of direct democracy and recommend &quot;best practices&quot; to other parties around the world, and across the political spectrum, that wish to experiment with and implement direct democratic participation through democracy. The project will discuss the successes and problems Podemos has faced in rolling out these tools, and recommendations for their use going forward in terms of how new technologies can better serve to democratic regeneration."
@@ -507,6 +528,7 @@
     - Open Data
 
 - title: "Fabrica de Laboratorio (Labs Fabric)"
+  short_title: "Labs Fabric"
   location: "America"
   tagline: "The Fabric Helps You"
   description:  "Fabrica de Laboratorios &quot;Fabrics of Labs&quot; is a project that helps you to create the right Open GovLab. The Fabric encourages Public Participation Experimentation and Open Data"
@@ -514,7 +536,7 @@
   email: "paulina@civica.digital"
   twitter:
   facebook:
-  www: "http://technologicalalgora.wordpress.com"
+  www:
   team:
     - first_name: Paulina
       last_name: Bustos Arellano
@@ -550,6 +572,7 @@
     - Citizen Science
 
 - title: "LDLN (Pronounced 'Landline')"
+  short_title: "LDLN"
   sectors: # not-for-profit || public-sector || academia || entrepreneur
   location: "Cascadia Region, USA and Canada"
   tagline: "Locally Distributed Logistics Network"
@@ -559,7 +582,7 @@
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@ldln.co"
   twitter: "@LandlinePH"
-  facebook: "ldln.co"
+  facebook: "http://facebook.com/ldln.co"
   www: "http://www.ldln.co/"
   team:
     - first_name: Matthew
@@ -611,6 +634,7 @@
     - Communications
 
 - title: "MuckRock"
+  short_title: "MuckRock"
   sectors: entrepreneur # not-for-profit || public-sector || academia || entrepreneur
   location: "Across the United States"
   tagline: "MuckRock is the easy way to request, analyze & share government documents, making politics more transparent and democracies more informed."
@@ -620,7 +644,7 @@
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@muckrock.com"
   twitter: "@muckrock"
-  facebook: "muckrock"
+  facebook: "http://facebook.com/muckrock"
   www: "https://www.muckrock.com/"
   team:
     - first_name: Michael
@@ -657,6 +681,7 @@
     - Tech Procurement
 
 - title: "Open Journalism: Journalists and Citizens United in Reporting Public Issues"
+  short_title: "Open Journalism"
   sectors: # not-for-profit || public-sector || academia || entrepreneur
   location: "Online. The first pilot will include Brazil, Colombia and other Latin American countries."
   tagline: "Uniting Journalists and Citizens to Create Public-Oriented News Reports on Public Issues"
@@ -695,6 +720,7 @@
     - Open Data
 
 - title: "PolicyAtlas"
+  short_title:
   sectors: not-for-profit # not-for-profit || public-sector || academia || entrepreneur
   location: "Global online audience. Based in New York, NY, U.S."
   tagline: "Mapping and crowdsourcing the universe of public policy solutions."
@@ -740,6 +766,7 @@
     - Crowdsourcing
 
 - title: "Promise2030"
+  short_title:
   sectors: # not-for-profit || public-sector || academia || entrepreneur
   location: "UK"
   tagline: "The Street Guide to Responsible Companies"
@@ -749,7 +776,7 @@
   status: "prototype" # idea || prototype || testing || private-beta || public-beta || launched
   email: "john.ranford@gmail.com"
   twitter: "@johnranford"
-  facebook: "promise2030"
+  facebook: "http://facebook.com/promise2030"
   www:
   team:
     - first_name: John
@@ -775,6 +802,7 @@
     - Open Data
 
 - title: "State and Local Secrecy"
+  short_title:
   sectors: # not-for-profit || public-sector || academia || entrepreneur
   location: "National Publications"
   tagline: "Secrecy is on the Rise in States and Localities"
@@ -792,9 +820,97 @@
       position: "Independent Journalist and Fellow, Marquette Diedrich College of Journalism; Grant Recipient, Ravitch Fellowship, CUNY and Fund for Investigative Journalism"
       url:
   partners:
-  impact:
   year: 2015
   logo:
   images:
   tags:
+    - Open Data
+
+- title: "Pittsburgh Purchasing Suite"
+  short_title:
+  sectors: public-sector # not-for-profit || public-sector || academia || entrepreneur
+  location: "Pittsburgh, Pennsylvania, US"
+  tagline: "A collection of apps that help you procure things more quickly and easily"
+  background: "Our apps, Beacon, Scout, and Conductor, have replaced and augmented government purchasing workflows in Pittsburgh. Connected by an open database, these tools enable city staff to transparently and efficiently manage, track, and advertise contract opportunities."
+  description: ""
+  impact: "Our work is rooted in interviews with over 60 city and county staff and 30 local businesses. We found that a path to success in Pittsburgh required fixing the basics. This year, we built the Pittsburgh Procurement Suite, a set of 3 web apps that helped open up purchasing data, increase internal communication between staff, and engage businesses interested in working with the city."
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "pittsburgh@codeforamerica.org"
+  twitter:
+  facebook:
+  www:
+  team:
+    - first_name: Ben
+      last_name: Smithgall
+      position: Developer
+      url: "http://www.codeforamerica.org/people/ben-smithgall/"
+    - first_name: Shelly
+      last_name: Ni
+      position: Designer
+      url: "http://www.codeforamerica.org/people/shelly-ni/"
+    - first_name: Patrick
+      last_name: Hammons
+      position: Project Manager
+      url: "http://www.codeforamerica.org/people/patrick-hammons/"
+  partners:
+    - Richard King Mellon Foundation
+    - City of Pittsburgh
+  year: 2015
+  logo:
+  images:
+    - pps-project1.png
+    - pps-project2.png
+    - pps-project3.png
+    - pps-project4.png
+    - pps-project5.png
+  tags:
+    - Agile Research
+    - Citizen Engagement
+    - Nudges
+    - Open Contracting
+    - Open Data
+    - Tech Procurement
+
+- title: "opnNotice by Commune"
+  short_title: "opnNotice"
+  sectors: public-sector # not-for-profit || public-sector || academia || entrepreneur
+  location: "New York City, NY"
+  tagline: "Powering transparency and access through digital and structured public records"
+  background: "In our digital age the pressing question is no longer what information should be digitized, but rather how this process of digitization should take place. Most public information is currently organized by procedure; publisher’s name, due date, etc. However, the content - affected areas or people, topics, participants and more – remain largely unstructured. As a result, despite growing computational power, machines remain surprisingly incapable of giving us an answer to the seemingly simple question; what is going on in my community?"
+  description: "Commune offers municipal bodies a digital framework - 'opn' - to create, publish and archive public records as well structured open data, while simultaneously increasing their work efficiency and performance."
+  impact: "Thanks to commune municipality staffers will save time handling public information and local business and residents will gain better insight to government decision making processes and actions."
+  status: "private-beta" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "team@commune.io"
+  twitter: "@icommune"
+  facebook:
+  www: "http://commune.io"
+  team:
+    - first_name: Mikael
+      last_name: Hveem
+      position:
+      url:
+    - first_name: Ravi
+      last_name: Tempalli
+      position:
+      url:
+    - first_name: Taylor
+      last_name: Kuhn
+      position:
+      url:
+    - first_name: Joe
+      last_name: Lamport
+      position:
+      url:
+  partners:
+    - Center for Social Innovation
+    - "Manhattan Borough President's Office"
+    - betaNYC
+  year: 2015
+  logo: logo-commune.png
+  images:
+  tags:
+    - Agile Research
+    - Citizen Engagement
+    - Data Science
+    - Open Contracting
     - Open Data
