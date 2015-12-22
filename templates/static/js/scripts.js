@@ -257,58 +257,63 @@ var $grid = $('.b-filter').isotope({
   layoutMode: 'fitRows'
 });
 
-// Functionality for filter UI buttons
-$('.b-filter-ui').on( 'click', 'button', function() {
+var singleSelect = function () {
+  $('.b-filter-ui select').on('change', function () {
+    var filterValue = this.value;
+    console.log (filterValue);
+    $grid.isotope({ filter: filterValue });
+  });
+}
 
-  var filterValue = '';
+var multipleSelect = function () {
+  // Functionality for filter UI buttons
+  $('.b-filter-ui').on( 'click', 'button', function() {
 
-  // Clicking 'All' filter
-  if ($(this).hasClass('m-clear-filters')) {
+    var filterValue = '';
 
-    // Deselect all others
-    $('.b-filter-ui').children().each(function() {
-      $(this).removeClass('m-selected');
-    });
+    // Clicking 'All' filter
+    if ($(this).hasClass('m-clear-filters')) {
 
-    // Can only select, not deselect 'All'
-    $(this).addClass('m-selected');
+      // Deselect all others
+      $('.b-filter-ui').children().each(function() {
+        $(this).removeClass('m-selected');
+      });
 
-    filterValue = '*';
+      // Can only select, not deselect 'All'
+      $(this).addClass('m-selected');
 
-  // Clicking any other filter
-  } else {
+      filterValue = '*';
+
+      // Clicking any other filter
+    } else {
 
     $('.b-filter-ui .m-clear-filters').removeClass('m-selected');
 
-    // Swap selection state of button
-    if (!$(this).hasClass('m-selected')) {
-      $(this).addClass('m-selected');
-    } else {
-      $(this).removeClass('m-selected');
+      // Swap selection state of button
+      if (!$(this).hasClass('m-selected')) {
+        $(this).addClass('m-selected');
+      } else {
+        $(this).removeClass('m-selected');
+      }
+
+      // Build filter string from all selected filters
+      $('.b-filter-ui').children().each(function() {
+        if ($(this).hasClass('m-selected')) {
+          filterValue += $(this).attr('data-filter');
+        }
+      });
+
     }
 
-    // Build filter string from all selected filters
-    $('.b-filter-ui').children().each(function() {
-      if ($(this).hasClass('m-selected')) {
-        filterValue += $(this).attr('data-filter');
-      }
-    });
+    //console.log(filterValue); //debug
+    selectDefaultFilter();
+    $grid.isotope({ filter: filterValue });
+  });
+}
 
-  }
-
-  //console.log(filterValue); //debug
-  selectDefaultFilter();
-  $grid.isotope({ filter: filterValue });
-});
-
-selectDefaultFilter();
-$grid.isotope({ filter: '*' });
-
-}); // Closes Document.ready
-
-
+// Used for multipleSelect() only
 // If nothing is selected, select 'All' filter
-function selectDefaultFilter() {
+var selectDefaultFilter = function () {
     var noneSelected = true;
 
     $('.b-filter-ui').children().each(function() {
@@ -321,6 +326,19 @@ function selectDefaultFilter() {
       $('.b-filter-ui .m-clear-filters').addClass('m-selected');
     }
 }
+
+// uncomment to switch to multiple select
+//multipleSelect();
+//selectDefaultFilter();
+
+// uncomment to switch to single select
+singleSelect();
+
+$grid.isotope({ filter: '*' });
+
+
+}); // Closes Document.ready
+
 
 
 function getQuery(param) {
