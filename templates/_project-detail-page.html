@@ -40,7 +40,7 @@
                 <a href="http://twitter.com/{{project.twitter | replace('@', '')}}" target="_blank" class=""><i class="fa fa-twitter"></i></a>
                 {% endif %}
                 {% if project.facebook %}
-                <a href="http://facebook.com/{{project.facebook}}" target="_blank" class=""><i class="fa fa-facebook"></i></a>
+                <a href="{{project.facebook}}" target="_blank" class=""><i class="fa fa-facebook"></i></a>
                 {% endif %}
                 {% if project.email %}
                 <a href="mailto:{{project.email}}" target="_blank" class=""><i class="fa fa-envelope"></i></a>

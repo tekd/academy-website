@@ -19,21 +19,28 @@
 # original status types
 # define || prototype || test || complete
 
-- title: "Beacon: Mobile Phone­-Based Emergency Medical Dispatch for Resource­-Limited"
+- title: "Beacon: Mobile Phone-Based Emergency Medical Dispatch for Resource-Limited Settings"
+  sectors: not-for-profit # not-for-profit || public-sector || academia || entrepreneur
   location: "Montecristi, Dominican Republic & Mwanza, Tanzania"
   tagline: "911 Where There is None"
+  background: "There are an estimated 4.5 billion mobile phone users across the globe, yet approximately 80% of the world’s population has no reliable way to call for help in the event of a life-threatening illness or injury. Nonetheless, lack of access to basic emergency health care services is a major contributor to health disparities between developed and developing nations with low- and middle-income countries having substantially higher mortality rates for what would otherwise be considered preventable deaths."
   description: "BEACON is a text message-based emergency medical dispatching software created by Trek Medics International, and designed specifically for communities where consistent ambulance response is not available. By relaying text messages from the scene of an emergency to trained responders throughout the community, the software enables the nearest available emergency care providers to quickly locate, treat and transport emergency victims to local hospitals."
+  impact: "Our goal is to ensure that 90% of victims requesting emergency assistance through the communities we work will be attended to by trained layperson responders with access to transport within 10 minutes in urban centers and within 30 minutes in peripheral communities. We believe that the minimal human, physical and financial resources associated with a text message-based emergency medical dispatch system will make the implementation of prehospital care systems possible wherever mobile phones are used, providing a sustainable and cost-effective model for other low-resource settings."
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@trekmedics.org"
   twitter: "@trekmedics"
-  facebook: "Trek-Medics-International-114525621925"
+  facebook: "http://facebook.com/Trek-Medics-International-114525621925"
   www: "http://trekmedics.org/"
   team:
-  - first_name: Jason
-    last_name: Friesen
-    position: Founder/Executive Director
-    url: "http://trekmedics.org/who-we-are/bios/"
-  impact: 3500000
+    - first_name: Jason
+      last_name: Friesen
+      position: Founder/Executive Director
+      url: "http://trekmedics.org/who-we-are/bios/"
+  partners:
+    - "Google.org, USAID"
+    - "Cardinal Health Foundation"
+    - "Henry E. Niles Foundation"
+    - "Widgeon Point Charitable Foundation"
   year: 2015
   logo: logo-beacon.png
   images:
@@ -56,7 +63,7 @@
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "joey.hulbert@fabi.up.ca.za"
   twitter: "@capecitsci"
-  facebook: "capecitsci"
+  facebook: "http://facebook.com/capecitsci"
   www:
   team:
   - first_name: Joey
@@ -144,7 +151,7 @@
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "carolina.pozo.d@gmail.com"
   twitter: "@linqlab"
-  facebook: "linqlab"
+  facebook: "http://facebook.com/linqlab"
   www:
   team:
     - first_name: Carolina
@@ -560,7 +567,7 @@
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@ldln.co"
   twitter: "@LandlinePH"
-  facebook: "ldln.co"
+  facebook: "http://facebook.com/ldln.co"
   www: "http://www.ldln.co/"
   team:
     - first_name: Matthew
@@ -621,7 +628,7 @@
   status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
   email: "info@muckrock.com"
   twitter: "@muckrock"
-  facebook: "muckrock"
+  facebook: "http://facebook.com/muckrock"
   www: "https://www.muckrock.com/"
   team:
     - first_name: Michael
@@ -750,7 +757,7 @@
   status: "prototype" # idea || prototype || testing || private-beta || public-beta || launched
   email: "john.ranford@gmail.com"
   twitter: "@johnranford"
-  facebook: "promise2030"
+  facebook: "http://facebook.com/promise2030"
   www:
   team:
     - first_name: John
@@ -793,9 +800,95 @@
       position: "Independent Journalist and Fellow, Marquette Diedrich College of Journalism; Grant Recipient, Ravitch Fellowship, CUNY and Fund for Investigative Journalism"
       url:
   partners:
-  impact:
   year: 2015
   logo:
   images:
   tags:
+    - Open Data
+
+- title: "Pittsburgh Purchasing Suite"
+  sectors: public-sector # not-for-profit || public-sector || academia || entrepreneur
+  location: "Pittsburgh, Pennsylvania, US"
+  tagline: "A collection of apps that help you procure things more quickly and easily"
+  background: "Our apps, Beacon, Scout, and Conductor, have replaced and augmented government purchasing workflows in Pittsburgh. Connected by an open database, these tools enable city staff to transparently and efficiently manage, track, and advertise contract opportunities."
+  description: ""
+  impact: "Our work is rooted in interviews with over 60 city and county staff and 30 local businesses. We found that a path to success in Pittsburgh required fixing the basics. This year, we built the Pittsburgh Procurement Suite, a set of 3 web apps that helped open up purchasing data, increase internal communication between staff, and engage businesses interested in working with the city."
+  status: "launched" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "pittsburgh@codeforamerica.org"
+  twitter:
+  facebook:
+  www:
+  team:
+    - first_name: Ben
+      last_name: Smithgall
+      position: Developer
+      url: "http://www.codeforamerica.org/people/ben-smithgall/"
+    - first_name: Shelly
+      last_name: Ni
+      position: Designer
+      url: "http://www.codeforamerica.org/people/shelly-ni/"
+    - first_name: Patrick
+      last_name: Hammons
+      position: Project Manager
+      url: "http://www.codeforamerica.org/people/patrick-hammons/"
+  partners:
+    - Richard King Mellon Foundation
+    - City of Pittsburgh
+  year: 2015
+  logo:
+  images:
+    - pps-project1.png
+    - pps-project2.png
+    - pps-project3.png
+    - pps-project4.png
+    - pps-project5.png
+  tags:
+    - Agile Research
+    - Citizen Engagement
+    - Nudges
+    - Open Contracting
+    - Open Data
+    - Tech Procurement
+
+- title: "opnNotice by Commune"
+  sectors: public-sector # not-for-profit || public-sector || academia || entrepreneur
+  location: "New York City, NY"
+  tagline: "Powering transparency and access through digital and structured public records"
+  background: "In our digital age the pressing question is no longer what information should be digitized, but rather how this process of digitization should take place. Most public information is currently organized by procedure; publisher’s name, due date, etc. However, the content - affected areas or people, topics, participants and more – remain largely unstructured. As a result, despite growing computational power, machines remain surprisingly incapable of giving us an answer to the seemingly simple question; what is going on in my community?"
+  description: "Commune offers municipal bodies a digital framework - 'opn' - to create, publish and archive public records as well structured open data, while simultaneously increasing their work efficiency and performance."
+  impact: "Thanks to commune municipality staffers will save time handling public information and local business and residents will gain better insight to government decision making processes and actions."
+  status: "private-beta" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "team@commune.io"
+  twitter: "@icommune"
+  facebook:
+  www: "http://commune.io"
+  team:
+    - first_name: Mikael
+      last_name: Hveem
+      position:
+      url:
+    - first_name: Ravi
+      last_name: Tempalli
+      position:
+      url:
+    - first_name: Taylor
+      last_name: Kuhn
+      position:
+      url:
+    - first_name: Joe
+      last_name: Lamport
+      position:
+      url:
+  partners:
+    - Center for Social Innovation
+    - "Manhattan Borough President's Office"
+    - betaNYC
+  year: 2015
+  logo: logo-commune.png
+  images:
+  tags:
+    - Agile Research
+    - Citizen Engagement
+    - Data Science
+    - Open Contracting
     - Open Data
