@@ -2403,6 +2403,13 @@ p,
     padding: 20px;
     z-index: 2; }
 
+.b-filter-ui button {
+  font-size: 14px;
+  padding: 8px 16px;
+  margin-bottom: 14px; }
+.b-filter-ui button.m-selected {
+  background-color: #ee5b43; }
+
 .b-single-landing {
   padding-top: 90px; }
   .b-single-landing .e-question {
