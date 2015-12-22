@@ -257,7 +257,7 @@ var $grid = $('.b-filter').isotope({
   layoutMode: 'fitRows'
 });
 
-var singleSelect = function () {
+var singleSelectFilter = function () {
   $('.b-filter-ui select').on('change', function () {
     var filterValue = this.value;
     console.log (filterValue);
@@ -265,7 +265,7 @@ var singleSelect = function () {
   });
 }
 
-var multipleSelect = function () {
+var multipleSelectFilter = function () {
   // Functionality for filter UI buttons
   $('.b-filter-ui').on( 'click', 'button', function() {
 
@@ -328,11 +328,11 @@ var selectDefaultFilter = function () {
 }
 
 // uncomment to switch to multiple select
-//multipleSelect();
+//multipleSelectFilter();
 //selectDefaultFilter();
 
 // uncomment to switch to single select
-singleSelect();
+singleSelectFilter();
 
 $grid.isotope({ filter: '*' });
 
