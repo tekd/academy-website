@@ -249,9 +249,95 @@ $('.js-image-gallery-item').click(function() {
   $('#overlay').append(clone).addClass('m-active b-lightbox');
 });
 
+
+// Initialize isotope grid
+var $grid = $('.b-filter').isotope({
+  // options
+  itemSelector: '.b-filter-item',
+  layoutMode: 'fitRows'
+});
+
+var singleSelectFilter = function () {
+  $('.b-filter-ui select').on('change', function () {
+    var filterValue = this.value;
+    console.log (filterValue);
+    $grid.isotope({ filter: filterValue });
+  });
+}
+
+var multipleSelectFilter = function () {
+  // Functionality for filter UI buttons
+  $('.b-filter-ui').on( 'click', 'button', function() {
+
+    var filterValue = '';
+
+    // Clicking 'All' filter
+    if ($(this).hasClass('m-clear-filters')) {
+
+      // Deselect all others
+      $('.b-filter-ui').children().each(function() {
+        $(this).removeClass('m-selected');
+      });
+
+      // Can only select, not deselect 'All'
+      $(this).addClass('m-selected');
+
+      filterValue = '*';
+
+      // Clicking any other filter
+    } else {
+
+    $('.b-filter-ui .m-clear-filters').removeClass('m-selected');
+
+      // Swap selection state of button
+      if (!$(this).hasClass('m-selected')) {
+        $(this).addClass('m-selected');
+      } else {
+        $(this).removeClass('m-selected');
+      }
+
+      // Build filter string from all selected filters
+      $('.b-filter-ui').children().each(function() {
+        if ($(this).hasClass('m-selected')) {
+          filterValue += $(this).attr('data-filter');
+        }
+      });
+
+    }
+
+    //console.log(filterValue); //debug
+    selectDefaultFilter();
+    $grid.isotope({ filter: filterValue });
+  });
+}
+
+// Used for multipleSelect() only
+// If nothing is selected, select 'All' filter
+var selectDefaultFilter = function () {
+    var noneSelected = true;
+
+    $('.b-filter-ui').children().each(function() {
+      if ($(this).hasClass('m-selected')) {
+        noneSelected = false;
+      }
+    });
+
+    if (noneSelected) {
+      $('.b-filter-ui .m-clear-filters').addClass('m-selected');
+    }
+}
+
+// uncomment to switch to multiple select
+//multipleSelectFilter();
+//selectDefaultFilter();
+
+// uncomment to switch to single select
+singleSelectFilter();
+
+$grid.isotope({ filter: '*' });
+
+
 }); // Closes Document.ready
-
-
 
 
 
@@ -273,3 +359,5 @@ function getQuery(param) {
 
     return result;
 }
+
+
