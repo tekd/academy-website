@@ -49,7 +49,7 @@
             <div class="e-tags">
                 <h5>Tags:</h5>
                 {% for tag in project.tags %}
-                <a class="e-tag">{{tag}}</a>
+                <a href="../project-gallery.html#{{tag | slug | lower}}" class="e-tag">{{tag}}</a>
                 {% endfor %}
             </div>
             {% if project.team %}
