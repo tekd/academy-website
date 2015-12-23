@@ -260,10 +260,15 @@ var $grid = $('.b-filter').isotope({
 var singleSelectFilter = function () {
   $('.b-filter-ui select').on('change', function () {
     var filterValue = this.value;
-    console.log (filterValue);
-    $grid.isotope({ filter: filterValue });
+    // console.log (filterValue);
+    //$grid.isotope({ filter: filterValue });
+    updateHash(filterValue);
   });
-}
+};
+
+var setSingleFilter = function (val) {
+  $('.b-filter-ui select').val(val);
+};
 
 var multipleSelectFilter = function () {
   // Functionality for filter UI buttons
@@ -307,9 +312,10 @@ var multipleSelectFilter = function () {
 
     //console.log(filterValue); //debug
     selectDefaultFilter();
-    $grid.isotope({ filter: filterValue });
+    //$grid.isotope({ filter: filterValue });
+    updateHash(filterValue);
   });
-}
+};
 
 // Used for multipleSelect() only
 // If nothing is selected, select 'All' filter
@@ -325,7 +331,20 @@ var selectDefaultFilter = function () {
     if (noneSelected) {
       $('.b-filter-ui .m-clear-filters').addClass('m-selected');
     }
-}
+};
+
+// update the url hash to a single value
+var updateHash = function (val) {
+  // replace current history state and trigger a custom event so we don't create history items on change
+  history.replaceState(undefined, undefined, '#' + val.replace('.', ''));
+  $(window).trigger('hashreplace');
+};
+
+var filterOnHash = function () {
+  var filterValue = document.location.hash.replace('#', '');
+  if (filterValue !== '*') { filterValue = '.' + filterValue; }
+  $grid.isotope({ filter: filterValue });
+};
 
 // uncomment to switch to multiple select
 //multipleSelectFilter();
@@ -334,8 +353,23 @@ var selectDefaultFilter = function () {
 // uncomment to switch to single select
 singleSelectFilter();
 
-$grid.isotope({ filter: '*' });
+// watch for hash changes
+$(window).on('hashreplace', function() {
+  filterOnHash();
+});
 
+// 1st time page is visited update filter from hash
+if (document.location.hash) {
+  // set the value of the select control
+  var filterValue = document.location.hash.replace('#', '');
+  if (filterValue !== '*') { filterValue = '.' + filterValue; }
+  setSingleFilter(filterValue);
+  // then filter on it, because setting it via .val() is this way doesn't pop a change event
+  filterOnHash();
+// or use * if no hash in url
+} else {
+  $grid.isotope({ filter: '*' });
+}
 
 }); // Closes Document.ready
 
