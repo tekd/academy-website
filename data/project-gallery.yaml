@@ -914,3 +914,44 @@
     - Data Science
     - Open Contracting
     - Open Data
+
+- title: "Codeando Monterrey’s Agile Scientific Method"
+  short_title: "Codeando Monterrey"
+  sectors: public-sector # not-for-profit || public-sector || academia || entrepreneur
+  location: "Monterrey, Mexico"
+  tagline: "Bridging the Scientific Method with Projects in Civic Communities"
+  background: "Civic Hacking is an agile approach that is focused more on solutions than taking a step away and think a lot. The scientific method is what has moved science so far to build robust explanations and solutions to so many different fields. How can we take the best of the two worlds and build robust explanations and solutions to so many different fields. How can we take the best of the worlds and build robust solutions while keeping a fast pace?"
+  description: "We try to get the best of the scientific method by following a 5 point rulebook to our civic hacking projects, that come from the traditional academic research: (1) Clear problem definition (2) Definition of Roles (3) Mentoring (4) Follow Up (5) Publish and Share"
+  impact: "Every project in our brigade needs to have great reach and impact. Taking into account past efforts, building bridges to experienced community and having a philosophy of sharing and publishing, will help build more solid projects."
+  status: "private-beta" # idea || prototype || testing || private-beta || public-beta || launched
+  email: "ricardo@codeandomexico.org"
+  twitter: "@codeandomty"
+  facebook: "http://facebook.com/CodeandoMty"
+  www: ""
+  team:
+    - first_name: Ricardo D.
+      last_name:  Alanis
+      position: Coordinator
+      url:
+    - first_name: Lady E.
+      last_name: Huerta
+      position: Leadership Developer
+      url:
+    - first_name: Catalina
+      last_name: Chapa
+      position: Community Chief
+      url:
+  partners:
+    - Mujer Digital
+    - Bosque Urbano Mexico
+  year: 2014
+  logo: logo-codeando.png
+  images:
+    - monterrey-project1.jpg
+    - monterrey-project2.jpg
+    - monterrey-project3.jpg
+  tags:
+    - Agile Research
+    - Citizen Engagement
+    - Citizen Science
+    - Collective Intelligence
