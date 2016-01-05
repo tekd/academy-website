@@ -1324,6 +1324,7 @@ p,
     width: 232px; } }
 .b-form input,
 .b-form button,
+.b-form select,
 .b-form textarea {
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 3px 0;
@@ -2333,6 +2334,15 @@ p,
     text-align: center;
     color: white;
     font-weight: 100; }
+  .b-project-gallery-page .e-landing-section .b-title {
+    display: inline-block;
+    position: relative; }
+    .b-project-gallery-page .e-landing-section .b-title sup.e-beta {
+      position: absolute;
+      right: -45px;
+      top: 10px;
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 18px; }
   .b-project-gallery-page .e-landing-section .e-sponsor {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.3);
@@ -2410,6 +2420,11 @@ p,
 .b-filter-ui button.m-selected {
   background-color: #ee5b43; }
 
+@media only screen and (max-width: 40.063em) {
+  .b-project-gallery-page .e-landing-section .b-title sup.e-beta {
+    right: -35px;
+    top: 5px;
+    font-size: 14px; } }
 .b-single-landing {
   padding-top: 90px; }
   .b-single-landing .e-question {

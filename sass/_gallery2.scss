@@ -16,6 +16,20 @@
             font-weight: 100;
         }
 
+        .b-title {
+            display: inline-block;
+            position: relative;
+
+            sup.e-beta {
+                position: absolute;
+                right: -45px;
+                top: 10px;
+                color: $white_30;
+                font-size: 18px;
+
+            }
+        }
+
         .e-sponsor {
             font-size: 14px;
             color: $white_30;
@@ -121,5 +135,19 @@
     }
     button.m-selected {
         background-color: $orange;
+    }
+}
+
+@media only screen and (max-width: 40.063em) {
+    .b-project-gallery-page {
+        .e-landing-section {
+            .b-title {
+                sup.e-beta {
+                    right: -35px;
+                    top: 5px;
+                    font-size: 14px;
+                }
+            }
+        }
     }
 }

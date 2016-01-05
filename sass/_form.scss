@@ -1,6 +1,7 @@
 .b-form {
 	input,
 	button,
+	select,
 	textarea {
 		border: 1px solid $gray_20;
 		margin: 3px 0;
@@ -47,7 +48,7 @@
 		margin-top: 40px;
 		text-align: center;
 		font-weight: 100 !important;
-	}	
+	}
 
 	.fr_section_name + p {
 		text-align: center !important;
