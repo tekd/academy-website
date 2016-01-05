@@ -2339,10 +2339,11 @@ p,
     position: relative; }
     .b-project-gallery-page .e-landing-section .b-title sup.e-beta {
       position: absolute;
-      right: -45px;
+      right: -50px;
       top: 10px;
       color: rgba(255, 255, 255, 0.3);
-      font-size: 18px; }
+      font-size: 18px;
+      text-transform: uppercase; }
   .b-project-gallery-page .e-landing-section .e-sponsor {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.3);
@@ -2422,7 +2423,7 @@ p,
 
 @media only screen and (max-width: 40.063em) {
   .b-project-gallery-page .e-landing-section .b-title sup.e-beta {
-    right: -35px;
+    right: -40px;
     top: 5px;
     font-size: 14px; } }
 .b-single-landing {
