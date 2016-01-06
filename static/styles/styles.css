@@ -2356,24 +2356,24 @@ p,
 .b-project-list {
   padding: 40px 0; }
 
-.b-project-card {
+.b-card.m-project {
   width: 100%;
   height: 0;
   padding-bottom: 100%;
   position: relative;
   perspective: 800px; }
-  .b-project-card .e-card-inner {
+  .b-card.m-project .e-card-inner {
     width: 100%;
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
     transition: transform 0.6s;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); }
-  .b-project-card:hover .e-card-inner {
+  .b-card.m-project:hover .e-card-inner {
     transform: rotateY(180deg);
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); }
-  .b-project-card .e-card-front,
-  .b-project-card .e-card-back {
+  .b-card.m-project .e-card-front,
+  .b-card.m-project .e-card-back {
     margin: 0;
     display: block;
     position: absolute;
@@ -2381,31 +2381,31 @@ p,
     height: 100%;
     backface-visibility: hidden;
     padding: 20px; }
-  .b-project-card .e-card-front {
+  .b-card.m-project .e-card-front {
     background: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%; }
-  .b-project-card .e-card-back {
+  .b-card.m-project .e-card-back {
     background: white;
     transform: rotateY(180deg); }
-  .b-project-card .m-no-logo .e-card-front {
+  .b-card.m-project .m-no-logo .e-card-front {
     background-image: url("/static/img/projects/logo-fallback.png"); }
-  .b-project-card .e-front-title {
+  .b-card.m-project .e-front-title {
     text-align: center;
     font-size: 16px;
     position: absolute;
     bottom: 20px;
     left: 0;
     width: 100%; }
-  .b-project-card .e-project-title {
+  .b-card.m-project .e-project-title {
     color: #333;
     font-size: 18px;
     position: relative;
     text-transform: uppercase;
     font-weight: 600;
     z-index: 2; }
-  .b-project-card .e-tagline {
+  .b-card.m-project .e-tagline {
     color: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     position: absolute;
