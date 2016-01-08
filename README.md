@@ -2,8 +2,7 @@
 
 This is the **new** GovLab Academy website.
 
-The old site, which will be deprecated soon but is still currently
-live at govlabacademy.org, is at [govlabacademy/govlabacademy.github.io](https://github.com/govlabacademy/govlabacademy.github.io).
+The old site was at [govlabacademy/govlabacademy.github.io](https://github.com/govlabacademy/govlabacademy.github.io).
 
 ## Requirements
 
