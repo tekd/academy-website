@@ -56,7 +56,11 @@
             <div class="e-team">
                 <h4>Team</h4>
                 {% for person in project.team %}
-                <p><a href="{{person.url}}" target="_blank">{{person.first_name}} {{person.last_name}}</a></p>
+                    {% if person.url %}
+                        <p><a href="{{person.url}}" target="_blank">{{person.first_name}} {{person.last_name}}</a></p>
+                    {% else %}
+                        <p>{{person.first_name}} {{person.last_name}}</p>
+                    {% endif %}
                 {% endfor %}
             </div>
             {% endif %}
