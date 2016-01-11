@@ -666,7 +666,7 @@
     - first_name: Allan
       last_name: Lasser
       position: Developer
-      url: "www.twitter.com/allanlasser"
+      url: "http://www.twitter.com/allanlasser"
   year: 2015
   logo: logo-muckrock.png
   images:
