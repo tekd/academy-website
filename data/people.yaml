@@ -408,3 +408,18 @@
     github:
     email: julian.carver@nzcapstrat.com
   tags: disaster-innovation
+
+- name:
+    last: Hermosilla
+    first: María
+    slug: maria-hermosilla
+  job: Graduate Research Assistant
+  description: "Maria Hermosilla is a Graduate Research Assistant at the GovLab. She is studying for a Master of Public Administration at NYU. Before moving to the USA from Santiago, Chile, she worked for five years in the public and nonprofit sectors. During the last two she led the citizen relations and information management unit at the Ministry of Public Works, where she implemented open government projects. Prior to that, she was chief of staff of the Vice Minister of Energy. Maria is a journalist with 4 years of experience in television as a reporter, producer and assistant director, and freelance correspondent for NPR. She can be found on twitter at @mphermosilla."
+  is_govlab: true
+  link:
+    url: http://thegovlab.org/author/maria-hermosilla/
+    twitter: https://twitter.com/mphermosilla
+    linkedin: https://www.linkedin.com/in/mphermosilla
+    github:
+    email: maria@thegovlab.org
+  tags: open-government
