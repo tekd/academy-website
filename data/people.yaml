@@ -393,3 +393,18 @@
     github:
     email: HTimms@92y.org
   tags: citizen-engagement
+  
+- name:
+    last: Carver
+    first: Julian
+    slug: "julian-carver"
+  job: "Data Driven Innovation Consultant and Former CIO of the Canterbury Earthquake Recovery Authority"
+  is_govlab: false
+  description: "Julian Carver is an investor, startup mentor, and technology innovator in the public and private sectors. He founded and exited three web software startups from 1995-2000. From 2000-2011 he led large shared services projects and data sharing strategies across central and local government and the private sector. In 2011 Julian worked with the Government Data and Information Reuse Secretariat to develop New Zealand’s Declaration on Open and Transparent Government. From April 2011 - June 2012 Julian led the establishment of information services at the Canterbury Earthquake Recovery Authority (CERA), as acting Chief Information Officer. From March 2013 - April 2015 he led the Canterbury Spatial Data Infrastructure (SDI) Programme at LINZ, a $5m investment in a set of eight ICT projects to support the $40 billion Christchurch rebuild."
+  link:
+    url:
+    twitter: https://twitter.com/serenare
+    linkedin: https://www.linkedin.com/in/juliancarver
+    github:
+    email: julian.carver@nzcapstrat.com
+  tags: disaster-innovation
