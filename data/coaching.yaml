@@ -684,6 +684,39 @@
   when_plus: ""
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
+- name: "Tracking Global Sustainability with Open Data and Crowdsourcing"
+  duration: 10 weeks
+  date:
+    start: "March 10, 2016"
+    week_start: "March 7 - 111" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "July 11, 2016"
+    application: "May 12, 2016"
+  passion:
+    title: Passionate about tracking global sustainability with Open Data and Crowdsourcing? 
+    bullets:
+      - The Open Seventeen Challenge is an invitation to pitch projects that use open data and crowdsourcing to tackle the 17 global goals at a local, regional or global level.
+      - What can you do with open data to help verify Global Goals? Look at the projects that citizens have created based on sets of public data in any format.
+      - Once you have found a set of pertinent open data, you can propose a clear, realistic goal for how to apply crowdsourcing to the data. 
+      - Pitch your project with a description of how it will impact the SDGs.
+  description_short: "The Open Seventeen Challenge is an invitation to pitch projects that use open data and crowdsourcing to tackle the 17 global goals at a local, regional or global level."
+  description_long: "The last Open Seventeen call has generated 7 high-quality project ideas, in areas as diverse as sexual harrasment reduction in India and mapping educational and health resources in Tanzania. With our coaching programme, we will offer them support and guidance on how to refine the project concept and set up a prototype on an open source crowdsourcing platform."
+  prerequisites:
+  faculty_members: # Add list with faculty member names
+    - Francois Grey
+  actions:
+    - label: More Info
+      link: tracking-global-sustainability-with-open-data-and-crowdsourcing.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "every other Thursday from 8 - 10am EST"
+  when_plus: ""
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+
 # - name: ""
 #   is_active: false
 #   partner: ""
