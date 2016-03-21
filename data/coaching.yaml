@@ -615,6 +615,38 @@
   when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays"
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
+- name: "Innovations in Tech-Enabled Disaster Management"
+  duration: 10 weeks
+  date:
+    start: "June 13, 2016"
+    week_start: "June 13 - 17" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "August 15, 2016"
+    application: "June 3, 2016"
+  passion:
+    title: Passionate about Innovations in Disaster Management? 
+    bullets:
+      - Are you working on a project that uses technology to aid those in a disaster-affected communities? Or to better prepare communities or manage resources and people during a disaster?  
+      - Are you working on a project in disaster management where you want to learn more about how to use technology to make your work more effective? 
+      - Do you want to learn from peers and experts about applying more collaborative and open approaches using the internet? 
+  description_short: "This program is designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities."
+  description_long: "Innovations in Disaster Management is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities. Whether your project is nonprofit or for-profit and whether you are focusing on disaster preparedness, disaster management or disaster relief, this program aims through peer-to-peer support and expert coaching and mentoring to help humanitarian innovators implement, scale, and assess effective projects. Ideal participants are those who have already identified a project and/or have a project underway and have clear insight into the problem they are trying to ameliorate. Projects might aim to tackle diverse issues from the protection of vulnerable populations, to strengthening health initiatives, to providing shelter, education, and livelihood opportunities. They will have in common the application of open, data-driven, bottom-up and collaborative approaches. A public interest and public engagement focus should ultimately be the driving force behind the projects. The GovLab Academy coaching programs have helped 450 government, social and civic entrepreneurs take 250 projects from idea to implementation.  We aim to help you “cross the chasm” from idea to implementation and help you scale."
+  prerequisites:
+  faculty_members: # Add list with faculty member names
+    - Julian Carver
+  actions:
+    - label: More Info
+      link: innovations-in-tech-enabled-disaster-management.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "every other Monday from 5 - 7pm EST"
+  when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays"
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+
 # - name: ""
 #   is_active: false
 #   partner: ""
