@@ -643,8 +643,46 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "every other Monday from 5 - 7pm EST"
-  when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays"
+  when: ""
+  when_plus: ""
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+  
+- name: "Data Driven Criminal Justice Project Coaching Program"
+  duration: 10 weeks
+  date:
+    start: "TBD"
+    week_start: "TBD" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "TBD"
+    application: "TBD"
+  passion:
+    title: Passionate about Data Driven Criminal Justice Innovation?
+    bullets:
+      - Are you a state or local government official eager to deliver better services and make better policies informed by data? Are you facing challenges with how to share data ethically and responsibly between agencies or with researchers to accelerate the adoption of criminal justice innovations?   
+      - Are you a researcher trying to collaborate with government around the use of data to test new approaches to reform? 
+      - Are you a health or mental health organization wanting to combine data with your criminal justice counterparts to identify super-utilizers of both systems? 
+      - Are you an advocacy organization that would like to open up access to its collected data for broader research?
+      - Are you working on leveraging predictive analytics and developing algorithms to target the delivery of services and interventions?
+      - Are you a policymaker looking to develop new guidance on responsible data sharing?
+  description_short: "This program is a first-of-its-kind online convening of those working on empirically-based criminal justice innovation projects, including those working in criminal justice, health, mental health and related agencies as well as researchers and advocates"
+  description_long: "With the support of the Laura and John Arnold Foundation and in partnership with the White House Office of Science and Technology Policy (and its efforts to accelerate more city, county and states willing to adopt voluntary, data-driven approaches to improve public health and safety, and reduce unnecessary incarceration), the Data Driven Criminal Justice Coaching Program is a first-of-its-kind online convening of those working on empirically-based criminal justice innovation projects, including those working in criminal justice, health, mental health and related agencies as well as researchers and advocates and who share a common desire to make greater use of data to understand past performance, improve day-to-day operations, and innovate in how the system works. Perhaps you want to combine arrest data with Medicaid hospitalization data to identify the super-utilizers of both systems? Or you are stuck trying to figure out the applicable legal and privacy protections inhibiting the creation of data exchanges? Maybe you want to identify which social service alternatives to incarceration are working, when and for whom and which are not? Have you developed a new algorithm for determining pre-trial release? Every other week for ten weeks, participants will come together to learn from one another and from experts both in responsible data sharing practices. Participants also receive personalized project management coaching designed to help you overcome the specific barriers to implementation you are facing. This program is offered in response to what we are hearing from you about the demand for more help, expertise and capacity building to enable you to make better use of data both to understand past performance and to improve day-to-day operations of criminal justice in your communities. The program is intended for those with a data driven criminal justice innovation project in mind. It is not a lecture course in data science but a hands-on, customized coaching and mentoring program for up to 12 teams or individuals. The program is designed to help you bring your project from idea to fruition. The program follows the outlines of our public problem solving method but is flexibly configured to be responsive to your specific needs. With implementation as our lodestar, we will focus together on developing the essential aspects of the projects at each stage."
+  prerequisites:
+  faculty_members: # Add list with faculty member names
+    - Tim Mulcahy
+    - Beth Noveck
+    - Lynn Overmann
+    - Stefaan Verhulst
+  actions:
+    - label: More Info
+      link: data-driven-criminal-justice-project-coaching-program.html
+  certificates:
+    blended: false
+    online: true
+    in_person: false
+    for_credit: false
+    for_certificate: true
+  is_active: true
+  when: "TBD"
+  when_plus: ""
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
 # - name: ""
