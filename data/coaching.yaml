@@ -650,7 +650,7 @@
 - name: "Data Driven Criminal Justice Project Coaching Program"
   duration: 10 weeks
   date:
-    start: ""
+    start: "May 16, 2016" 
     week_start: "May 16 - 20, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "July 18 - 22, 2016"
     application: "May 6, 2016"
