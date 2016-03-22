@@ -650,10 +650,10 @@
 - name: "Data Driven Criminal Justice Project Coaching Program"
   duration: 10 weeks
   date:
-    start: "TBD"
-    week_start: "TBD" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "TBD"
-    application: "TBD"
+    start: ""
+    week_start: "May 16 - 20, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "July 18 - 22, 2016"
+    application: "May 6, 2016"
   passion:
     title: Passionate about Data Driven Criminal Justice Innovation?
     bullets:
@@ -668,7 +668,6 @@
   prerequisites:
   faculty_members: # Add list with faculty member names
     - Beth Noveck
-    - Lynn Overmann
     - Stefaan Verhulst
   actions:
     - label: More Info
@@ -680,7 +679,7 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "TBD"
+  when: ""
   when_plus: ""
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
