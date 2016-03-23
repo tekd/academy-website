@@ -688,7 +688,7 @@
   duration: 10 weeks
   date:
     start: "March 10, 2016"
-    week_start: "March 7 - 111" # Date can be in two formats ie. "January 2015" or "By Request"
+    week_start: "March 7 - 11" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "July 11, 2016"
     application: "May 12, 2016"
   passion:
