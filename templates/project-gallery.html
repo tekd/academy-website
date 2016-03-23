@@ -11,7 +11,7 @@
     <h3 class="e-tagline">Showcasing Innovative Civic and Governance Projects and their Evolution from Idea to Implementation. Get Inspired. Connect. Collaborate.</h3>
 
     <p class="e-sponsor">
-      With support from <img id="knight-logo" src="/static/img/knight-logo-white.png" alt="Knight Foundation">
+      With support from <img id="knight-logo" src="./static/img/knight-logo-white.png" alt="Knight Foundation">
     </p>
   </div>
 </div>
@@ -70,7 +70,7 @@
       <a href="/project/{{card.title|slug}}.html" class="b-card m-project">
         <article class="e-card-inner {% if not card.logo %}m-no-logo{% endif %}">
 
-          <section class="e-card-front" {% if card.logo %}style="background-image: url('/static/img/projects/{{card.logo}}')"{% endif %}>
+          <section class="e-card-front" {% if card.logo %}style="background-image: url('./static/img/projects/{{card.logo}}')"{% endif %}>
             <p class="e-front-title">{% if card.short_title %}{{card.short_title | max(20)}}{% else %}{{card.title | max(20)}}{% endif %}</p>
           </section>
 
