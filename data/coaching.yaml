@@ -651,9 +651,9 @@
   duration: 10 weeks
   date:
     start: "May 16, 2016" 
-    week_start: "May 16 - 20, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "July 18 - 22, 2016"
-    application: "May 6, 2016"
+    week_start: "May 30 - June 3, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "August 1 - 5, 2016"
+    application: "May 20, 2016"
   passion:
     title: Passionate about Data Driven Criminal Justice Innovation?
     bullets:
