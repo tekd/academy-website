@@ -569,7 +569,7 @@
     - María Hermosilla
   actions:
     - label: More Info
-      link: oas-fellowship-program-2016.html
+      link: oas-fellowship-program-2016-detail.html
   certificates:
     blended: false
     online: true
@@ -603,7 +603,7 @@
     - Benjamin Kallos
   actions:
     - label: More Info
-      link: innovations-in-automatic-benefits-for-citizens.html
+      link: innovations-in-automatic-benefits-for-citizens-detail.html
   certificates:
     blended: false
     online: true
@@ -635,7 +635,7 @@
     - Julian Carver
   actions:
     - label: More Info
-      link: innovations-in-tech-enabled-disaster-management.html
+      link: innovations-in-tech-enabled-disaster-management-detail.html
   certificates:
     blended: false
     online: true
@@ -671,7 +671,7 @@
     - Stefaan Verhulst
   actions:
     - label: More Info
-      link: data-driven-criminal-justice-project-coaching-program.html
+      link: data-driven-criminal-justice-project-coaching-program-detail.html
   certificates:
     blended: false
     online: true
@@ -704,7 +704,7 @@
     - Francois Grey
   actions:
     - label: More Info
-      link: tracking-global-sustainability-with-open-data-and-crowdsourcing.html
+      link: tracking-global-sustainability-with-open-data-and-crowdsourcing-detail.html
   certificates:
     blended: false
     online: true
