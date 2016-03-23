@@ -67,7 +67,7 @@
     <div class="b-filter">
     {% for card in projects|sort(attribute='title') %}
     <div class="column large-4 medium-6 b-filter-item {% for tag in card.tags %}{{tag | replace(' ', '-') | lower}} {% endfor %}">
-      <a href="/project/{{card.title|slug}}.html" class="b-card m-project">
+      <a href="./project/{{card.title|slug}}.html" class="b-card m-project">
         <article class="e-card-inner {% if not card.logo %}m-no-logo{% endif %}">
 
           <section class="e-card-front" {% if card.logo %}style="background-image: url('./static/img/projects/{{card.logo}}')"{% endif %}>
