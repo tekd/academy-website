@@ -105,9 +105,9 @@
     </div>
 
 		<div class="column large-6">
-      {% if coaching_class.prerequisites %}
-			<h3>Prerequisites</h3>
-      {% for item in coaching_class.prerequisites %}
+      {% if coaching_class.more_info %}
+			<h3>More Information</h3>
+      {% for item in coaching_class.more_info %}
 				<p>{{item}}</p>
       {% endfor %}
       <a href="./coaching-programs.html#faqs" class="e-button">FAQs</a>
