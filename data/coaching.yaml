@@ -585,24 +585,29 @@
   when_plus: 
   format: "1 faculty-led session every month for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
+###########################
+
 - name: "Innovations in Automatic Benefits for Citizens"
   duration: 10 weeks
   date:
     start: "May 9, 2016"
-    week_start: "May 9 - 13" # Date can be in two formats ie. "January 2015" or "By Request"
+    week_start: "May 9, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "July 11, 2016"
     application: "April 29, 2016"
   passion:
-    title: Passionate about Reducing Government Red Tape to Improve Lives? 
+    title: "Passionate about Reducing Government Red Tape to Improve Lives?" 
     bullets:
       - Are you working on a project to streamline the delivery of government or nonprofit benefits to citizens?
       - Are you seeking to use technology to aid citizens in discovering the benefits for which they are eligible? In accessing, renewing or delivering those benefits?
-      - Are you trying to help government or other organizations better determine who is eligible for which services to increase efficiency and fairness? 
-      - Are you working on a project where you want to learn more about how to use technology  and open source tools to make work on benefits more effective and have greater impact? 
-      - Do you want to learn from peers and experts about what works? 
+      - Are you trying to help government or other organizations better determine who is eligible for which services in order to increase efficiency and fairness?
+      - Are you working on a project where you want to learn more about how to use technology and open source tools to make work on benefits more effective and have greater impact?
+      - Do you want to learn from peers and experts about what works?
   description_short: "Led by New York City Council member Ben Kallos, this program is designed to convene government, social and civic entrepreneurs who are developing projects around the automation and delivery of benefits and services for citizens."
-  description_long: "For many low-income citizens, getting access to benefits for which they are already eligible requires a minefield of forms, websites and duplicate documentation. Technology can improve government and organizational efficiency and ensure that thousands of citizens don’t lose out on benefits simply by enabling the automation of enrollment and renewal of people into the system. Recertifications can be automatic rather an arduous and instead of repetitive paperwork, people can get what they need and the government can reduce administrative costs. Innovations in Automatic Benefits for Citizens is a ten week (every other week) online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects around the automation and delivery of benefits and services for citizens. With expert guidance from Councilmember Ben Kallos, Chair of the Committee on Governmental Operations of the New York City Council, we will help you to understand the operational flow of government as well as how to start building free and open source tools and/or bridge them with resources like OpenFisca and CiviCRM. Whether your project is nonprofit or for-profit, this program aims through peer-to-peer support and expert coaching and mentoring to help innovators design, implement, scale, and assess effective projects."
-  prerequisites:
+  description_long: >
+      <p>For many low-income citizens, getting access to benefits for which they are already eligible requires them to negotiate a minefield of forms, websites and duplicate documentation. Technology can improve government and organizational efficiency and ensure that thousands of citizens don’t lose out on benefits simply by enabling the automation of enrollment and renewal of people into the system. Recertifications can be automatic rather than arduous, eliminating repetitive paperwork and allowing people to get what they need and the government to reduce administrative costs.</p>
+      <p>Innovations in Automatic Benefits for Citizens is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects around the automation and delivery of benefits and services for citizens. With expert guidance from Councilmember Ben Kallos, Chair of the Committee on Governmental Operations of the New York City Council, we will help you to understand the operational flow of government as well as how to start building free and open source tools and/or bridge them with resources like OpenFisca and CiviCRM.</p>
+      <p>Whether your project is nonprofit or for-profit, this program aims, through peer-to-peer support and expert coaching and mentoring, to help innovators design, implement, scale, and assess effective projects.</p>
+  more_info:
   faculty_members: # Add list with faculty member names
     - Benjamin Kallos
   actions:
@@ -615,26 +620,35 @@
     for_credit: false
     for_certificate: true
   is_active: true
-  when: "every other Monday from 5 - 7pm EST"
-  when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays"
+  when: "every other Monday from 5 - 7pm EST."
+  when_plus: "If the day or time present a challenge for the admitted applicants, we are open to offering the program on Sundays."
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+
+###########################
 
 - name: "Innovations in Tech-Enabled Disaster Management"
   duration: 10 weeks
   date:
     start: "June 13, 2016"
-    week_start: "June 13 - 17" # Date can be in two formats ie. "January 2015" or "By Request"
+    week_start: "June 13, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "August 15, 2016"
     application: "June 3, 2016"
   passion:
-    title: Passionate about Innovations in Disaster Management? 
+    title: "Passionate about Innovations in Disaster Management?" 
     bullets:
-      - Are you working on a project that uses technology to aid those in a disaster-affected communities? Or to better prepare communities or manage resources and people during a disaster?  
-      - Are you working on a project in disaster management where you want to learn more about how to use technology to make your work more effective? 
-      - Do you want to learn from peers and experts about applying more collaborative and open approaches using the internet? 
-  description_short: "This program is designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities."
-  description_long: "Innovations in Disaster Management is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities. Whether your project is nonprofit or for-profit and whether you are focusing on disaster preparedness, disaster management or disaster relief, this program aims through peer-to-peer support and expert coaching and mentoring to help humanitarian innovators implement, scale, and assess effective projects. Ideal participants are those who have already identified a project and/or have a project underway and have clear insight into the problem they are trying to ameliorate. Projects might aim to tackle diverse issues from the protection of vulnerable populations, to strengthening health initiatives, to providing shelter, education, and livelihood opportunities. They will have in common the application of open, data-driven, bottom-up and collaborative approaches. A public interest and public engagement focus should ultimately be the driving force behind the projects. The GovLab Academy coaching programs have helped 450 government, social and civic entrepreneurs take 250 projects from idea to implementation.  We aim to help you “cross the chasm” from idea to implementation and help you scale."
-  prerequisites:
+      - Are you working on a project that uses technology to aid those in a disaster-affected community? Or to better prepare communities or manage resources and people during a disaster?
+      - Are you working on a project in disaster management where you want to learn more about how to use technology to make your work more effective?
+      - Do you want to learn from peers and experts about applying more collaborative and open approaches using the internet?
+
+  description_short: >
+    <p>This program is designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities.</p>
+  description_long: >
+    <p>Innovations in Disaster Management is a ten week online coaching program designed to convene government, social and civic entrepreneurs (both individuals and teams) who are developing projects that have the potential to tackle the pressing needs of people in disaster-affected communities. Whether your project is nonprofit or for-profit and whether you are focusing on disaster preparedness, disaster management or disaster relief, this program aims, through peer-to-peer support and expert coaching and mentoring, to help humanitarian innovators implement, scale, and assess effective projects.</p>
+    <p>Ideal participants are those who have already identified a project and/or have a project underway and have clear insight into the problem they are trying to ameliorate. Projects might aim to tackle diverse issues from the protection of vulnerable populations, to strengthening health initiatives, to providing shelter, education, and livelihood opportunities. They will have in common the application of open, data-driven, bottom-up and collaborative approaches. A public interest and public engagement focus should ultimately be the driving force behind the projects.</p>
+    <p>The GovLab Academy coaching programs have helped 450 government, social and civic entrepreneurs take 250 projects from idea to implementation. We aim to help you “cross the chasm” from idea to implementation and help you scale.</p>
+  more_info:
+    - <strong>Fee:</strong> $250 US dollars per project. Each project can have a team of up to 5 participants.
+    - The $250 fee helps to cover the stipend that we offer to coaches to compensate them for their time. We hope to offer financial aid scholarships to help international teams that would otherwise not be able to participate in the coaching program due to financial constraints. If your team would like to be considered for a scholarship (should your project be selected), please check the box in your application. More details will follow. 
   faculty_members: # Add list with faculty member names
     - Julian Carver
   actions:
@@ -649,27 +663,40 @@
   is_active: true
   when: ""
   when_plus: ""
-  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
-  
+  format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."  
+
+###########################
+
 - name: "Data Driven Criminal Justice Project Coaching Program"
   duration: 10 weeks
   date:
     start: "May 16, 2016" 
-    week_start: "May 30 - June 3, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
-    end: "August 1 - 5, 2016"
+    week_start: "May 30, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
+    end: "August 1, 2016"
     application: "May 20, 2016"
   passion:
-    title: Passionate about Data Driven Criminal Justice Innovation?
+    title: "Passionate about Data Driven Criminal Justice Innovation?"
     bullets:
-      - Are you a state or local government official eager to deliver better services and make better policies informed by data? Are you facing challenges with how to share data ethically and responsibly between agencies or with researchers to accelerate the adoption of criminal justice innovations?   
-      - Are you a researcher trying to collaborate with government around the use of data to test new approaches to reform? 
-      - Are you a health or mental health organization wanting to combine data with your criminal justice counterparts to identify super-utilizers of both systems? 
+      - Are you a state or local government official eager to deliver better services and make better policies informed by data? Are you facing challenges with how to share data ethically and responsibly between agencies or with researchers to accelerate the adoption of criminal justice innovations?
+      - Are you a researcher trying to collaborate with government around the use of data to test new approaches to reform?
+      - Are you a health or mental health organization wanting to combine data with your criminal justice counterparts to identify super-utilizers of both systems?
       - Are you an advocacy organization that would like to open up access to its collected data for broader research?
       - Are you working on leveraging predictive analytics and developing algorithms to target the delivery of services and interventions?
       - Are you a policymaker looking to develop new guidance on responsible data sharing?
-  description_short: "This program is a first-of-its-kind online convening of those working on empirically-based criminal justice innovation projects, including those working in criminal justice, health, mental health and related agencies as well as researchers and advocates"
-  description_long: "With the support of the Laura and John Arnold Foundation and in partnership with the White House Office of Science and Technology Policy (and its efforts to accelerate more city, county and states willing to adopt voluntary, data-driven approaches to improve public health and safety, and reduce unnecessary incarceration), the Data Driven Criminal Justice Coaching Program is a first-of-its-kind online convening of those working on empirically-based criminal justice innovation projects, including those working in criminal justice, health, mental health and related agencies as well as researchers and advocates and who share a common desire to make greater use of data to understand past performance, improve day-to-day operations, and innovate in how the system works. Perhaps you want to combine arrest data with Medicaid hospitalization data to identify the super-utilizers of both systems? Or you are stuck trying to figure out the applicable legal and privacy protections inhibiting the creation of data exchanges? Maybe you want to identify which social service alternatives to incarceration are working, when and for whom and which are not? Have you developed a new algorithm for determining pre-trial release? Every other week for ten weeks, participants will come together to learn from one another and from experts both in responsible data sharing practices. Participants also receive personalized project management coaching designed to help you overcome the specific barriers to implementation you are facing. This program is offered in response to what we are hearing from you about the demand for more help, expertise and capacity building to enable you to make better use of data both to understand past performance and to improve day-to-day operations of criminal justice in your communities. The program is intended for those with a data driven criminal justice innovation project in mind. It is not a lecture course in data science but a hands-on, customized coaching and mentoring program for up to 12 teams or individuals. The program is designed to help you bring your project from idea to fruition. The program follows the outlines of our public problem solving method but is flexibly configured to be responsive to your specific needs. With implementation as our lodestar, we will focus together on developing the essential aspects of the projects at each stage."
-  prerequisites:
+
+  description_short: >
+      <p>This program is a first-of-its-kind online convening of those working on empirically-based criminal justice innovation projects, including those working in criminal justice, health, mental health and related agencies as well as researchers and advocates.</p>
+  description_long: >
+      <p>The Data Driven Criminal Justice Coaching Program has support from the Laura and John Arnold Foundation and is run in partnership with the White House Office of Science and Technology Policy (and its efforts to accelerate more city, county and states willing to adopt voluntary, data-driven approaches to improve public health and safety, and reduce unnecessary incarceration). The program is a first-of-its-kind online convening of those working on empirically-based criminal justice innovation projects, including those working in criminal justice, health, mental health and related agencies as well as researchers and advocates, and who share a common desire to make greater use of data to understand past performance, improve day-to-day operations, and develop innovative approaches to the operations of the criminal justice system.</p>
+      <p>Perhaps you want to combine arrest data with Medicaid hospitalization data to identify the super-utilizers of both systems? Or you are stuck trying to figure out the applicable legal and privacy protections inhibiting the creation of data exchanges? Maybe you want to identify which social service alternatives to incarceration are working, when and for whom, and which are not? Have you developed a new algorithm for determining pre-trial release?</p>
+      <p>Every other week for ten weeks, participants will come together to learn both from one another and from experts in responsible data sharing practices. Participants also receive personalized project management coaching designed to help you overcome the specific barriers to implementation you are facing.</p>
+      <p>This program is offered in response to what we are hearing from you about the demand for more help, expertise and capacity building to enable you to make better use of data both to understand past performance and to improve day-to-day operations of criminal justice in your communities.</p>
+      <p>The program is intended for those with a data driven criminal justice innovation project in mind. It is not a lecture course in data science but a hands-on, customized coaching and mentoring program for up to 12 teams or individuals. The program is designed to help you bring your project from idea to fruition. The program follows the outlines of our public problem solving method but is flexibly configured to be responsive to your specific needs.</p>
+      <p>With implementation as our lodestar, we will focus together on developing the essential aspects of the projects at each stage.</p>
+  more_info:
+    - If accepted, participants are asked to complete a questionnaire about their projects to aid with up-front diagnosis of challenges and the design of a customized support curriculum. 
+    - Thanks to a generous grant from the Arnold Foundation, the program is free of charge to participants. However, participants are expected to commit to the duration of the program.
+
   faculty_members: # Add list with faculty member names
     - Ana Tovar
     - Beth Simone Noveck
@@ -688,23 +715,25 @@
   when_plus: ""
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
 
+###########################
+
 - name: "Tracking Global Sustainability with Open Data and Crowdsourcing"
   duration: 10 weeks
   date:
     start: "March 10, 2016"
-    week_start: "March 7 - 11" # Date can be in two formats ie. "January 2015" or "By Request"
+    week_start: "March 7, 2016" # Date can be in two formats ie. "January 2015" or "By Request"
     end: "July 11, 2016"
     application: "May 12, 2016"
   passion:
-    title: Passionate about tracking global sustainability with Open Data and Crowdsourcing? 
+    title: "Passionate about tracking global sustainability with Open Data and Crowdsourcing?" 
     bullets:
       - The Open Seventeen Challenge is an invitation to pitch projects that use open data and crowdsourcing to tackle the 17 global goals at a local, regional or global level.
       - What can you do with open data to help verify Global Goals? Look at the projects that citizens have created based on sets of public data in any format.
-      - Once you have found a set of pertinent open data, you can propose a clear, realistic goal for how to apply crowdsourcing to the data. 
+      - Once you have found a set of pertinent open data, you can propose a clear, realistic goal for how to apply crowdsourcing to the data.
       - Pitch your project with a description of how it will impact the SDGs.
   description_short: "The Open Seventeen Challenge is an invitation to pitch projects that use open data and crowdsourcing to tackle the 17 global goals at a local, regional or global level."
-  description_long: "The last Open Seventeen call has generated 7 high-quality project ideas, in areas as diverse as sexual harrasment reduction in India and mapping educational and health resources in Tanzania. With our coaching programme, we will offer them support and guidance on how to refine the project concept and set up a prototype on an open source crowdsourcing platform."
-  prerequisites:
+  description_long: "The last Open Seventeen call has generated 7 high-quality project ideas in areas as diverse as sexual harassment reduction in India and mapping educational and health resources in Tanzania. With our coaching program, we will offer them support and guidance on how to refine the project concept and set up a prototype on an open source crowdsourcing platform."
+  more_info:
   faculty_members: # Add list with faculty member names
     - Francois Grey
   actions:
@@ -720,6 +749,8 @@
   when: "every other Thursday from 8 - 10am EST"
   when_plus: ""
   format: "1 faculty-led session every other week for 2 hours (one hour is with a guest expert and one hour is an all-group session); and a personalized schedule of peer-to-peer and one-on-one coaching sessions."
+
+###########################
 
 # - name: ""
 #   is_active: false
