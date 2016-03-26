@@ -251,6 +251,9 @@ p,
   .b-list a:visited {
     color: #008895; }
 
+.project-list li {
+  color: red; }
+
 .m-project-coaching {
   background-color: #008895;
   border-top-color: #008895;
